@@ -24,4 +24,5 @@ Thumbs.db
 # lockfiles (optional if you only want 1 lock file committed)
 package-lock.json
 yarn.lock
-pnpm-lock.yaml
+pnpm-lock.yamlnode_modules/
+dist/
