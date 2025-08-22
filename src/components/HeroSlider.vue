@@ -128,9 +128,9 @@ const paginationEl = ref(null)
 :deep(.swiper-pagination-bullet) {
   position: relative;
   width: 28px;
-  height: 2px;
+  height: 3px;
   border-radius: 0;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 1);
   /* base track */
   overflow: hidden;
   /* hide the filling bar overflow */
