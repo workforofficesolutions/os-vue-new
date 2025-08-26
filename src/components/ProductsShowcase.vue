@@ -72,7 +72,7 @@ const prev = () => swiperRef.value?.slidePrev()
 </script>
 
 <template>
-    <section class="bg-[#F7F3EA] py-14 md:py-20">
+    <section class="bg-white py-14 md:py-20">
         <div
             class="mx-auto max-w-[1440px] px-4 sm:px-6 grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8 md:items-stretch">
             <!-- Left rail (slightly wider) + divider line -->

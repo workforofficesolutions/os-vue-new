@@ -91,7 +91,7 @@ onBeforeUnmount(killTrigger)
 
 <template>
   <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-colors duration-300"
-    :class="solid ? 'bg-[#F7F3EA] border-b border-black/10 text-black' : 'bg-transparent border-b border-white/25 text-white'">
+    :class="solid ? 'bg-white border-b border-black/10 text-black' : 'bg-transparent border-b border-white/25 text-white'">
     <div class="mx-auto max-w-[1440px] px-4 sm:px-6">
 
       <!-- ===========================
