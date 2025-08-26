@@ -1,24 +1,93 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, onBeforeUnmount, nextTick, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const solid = ref(false)
 const open = ref(false)
+const route = useRoute()
 
-onMounted(() => {
-  const hero = document.getElementById('hero')
-  if (!hero) return
-  ScrollTrigger.create({
+let headerTrigger = null
+
+function killTrigger() {
+  if (headerTrigger) {
+    headerTrigger.kill()
+    headerTrigger = null
+  }
+}
+
+function createTrigger(hero) {
+  solid.value = false
+
+  const endDistance = () => {
+    const h = hero.getBoundingClientRect().height || hero.offsetHeight || window.innerHeight
+    return Math.max(h, window.innerHeight * 0.6) * 0.5
+  }
+
+  // hysteresis thresholds
+  const SOLID_ON = 0.92   // become solid when past 92% of the range
+  const SOLID_OFF = 0.85   // go back to transparent below 85%
+  let isSolid = false
+  
+  headerTrigger = ScrollTrigger.create({
     trigger: hero,
     start: 'top top',
-    end: () => `+=${hero.offsetHeight / 2}`,
-    onUpdate: (self) => { solid.value = self.progress >= 1 },
-    onLeaveBack: () => { solid.value = false }
+    end: () => `+=${endDistance()}`,
+    invalidateOnRefresh: true,
+    onUpdate: (self) => {
+      if (!isSolid && self.progress >= SOLID_ON) {
+        isSolid = true
+        solid.value = true
+      } else if (isSolid && self.progress <= SOLID_OFF) {
+        isSolid = false
+        solid.value = false
+      }
+    },
+    onLeaveBack: () => { isSolid = false; solid.value = false },
   })
+
+  ScrollTrigger.refresh()
+}
+
+
+function setupHeaderTriggerWithRetry(retries = 0) {
+  killTrigger()
+
+  const hero = document.getElementById('hero')
+
+  if (!hero) {
+    // Give router-view time to mount; try a few times before concluding “no hero”
+    if (retries < 10) {
+      setTimeout(() => setupHeaderTriggerWithRetry(retries + 1), 50)
+      return
+    }
+    // No hero on this route → keep header solid
+    solid.value = true
+    return
+  }
+
+  createTrigger(hero)
+}
+
+onMounted(async () => {
+  await nextTick()
+  // first run (home may not be mounted yet)
+  setupHeaderTriggerWithRetry()
 })
+
+// Re-init when route changes
+watch(() => route.fullPath, async () => {
+  await nextTick()
+  setupHeaderTriggerWithRetry()
+})
+
+onBeforeUnmount(killTrigger)
 </script>
+
+
+
 
 <template>
   <header id="site-header" class="fixed inset-x-0 top-0 z-50 transition-colors duration-300"
