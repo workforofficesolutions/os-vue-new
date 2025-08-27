@@ -144,7 +144,7 @@ function updateShiftPct() {
           <p class="text-xs sm:text-sm uppercase tracking-wide mb-6 font-semibold">Sectors</p>
 
           <!-- Absolutely centered list (no JS; no snapping) -->
-          <div class="absolute left-0 right-0 top-1/2"
+          <div class="absolute left-0 right-0 top-1/2 pointer-events-none"
             :style="{ transform: `translateY(-${(shiftPct * 100).toFixed(3)}%)` }">
             <div class="relative">
               <!-- top/bottom fades -->

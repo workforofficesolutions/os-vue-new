@@ -95,7 +95,7 @@ const smallPosClass = (shape) => {
                         <div class="pt-4 sm:pt-5 md:pt-6">
                             <div class="grid md:grid-cols-12 gap-3 md:gap-5 items-start">
                                 <div class="md:col-span-8 min-w-0">
-                                    <h3 class="text-xl md:text-2xl font-semibold leading-snug min-w-0">
+                                    <h3 class="text-base md:text-lg font-semibold leading-snug min-w-0">
                                         {{ p.title }}
                                     </h3>
                                     <span class="typing-mask block text-[12px] tracking-wide font-semibold mt-1

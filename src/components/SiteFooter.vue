@@ -1,3 +1,4 @@
+<!-- src/components/SiteFooter.vue -->
 <script setup>
 // Optional props if you want to swap the logo/brand text later
 const props = defineProps({
@@ -34,6 +35,11 @@ const navColumns = [
         ],
     },
 ]
+
+// NEW: map link for “Get Direction”
+const officeAddress = '405 , Nastaran Tower, Jaddaf Waterfront, Dubai, UAE'
+const mapQuery = encodeURIComponent(`Office Solutions, ${officeAddress}`)
+const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
 </script>
 
 <template>
@@ -53,25 +59,38 @@ const navColumns = [
                     <!-- Contact details -->
                     <div class="space-y-2 text-[15px] leading-relaxed opacity-95">
                         <p>
-                            New Zealand:
-                            <a href="tel:0508238262" class="underline hover:no-underline">0508 238 262</a>
+                            Sales:
+                            <a href="tel:+971559270050" class="underline hover:no-underline">+971 55 927 0050</a>
                         </p>
                         <p>
-                            International:
-                            <a href="tel:+6496344455" class="underline hover:no-underline">+64 9 634 4455</a>
+                            Office:
+                            <a href="tel:+97148347643" class="underline hover:no-underline">+64 9 634 4455</a>
                         </p>
                         <p>
                             Email:
-                            <a href="mailto:sales@officesolutions.uae"
-                                class="underline hover:no-underline">sales@officesolutions.uae</a>
+                            <a href="mailto:info@officesolutionsuae.com"
+                                class="underline hover:no-underline">info@officesolutionsuae.com</a>
                         </p>
                     </div>
 
                     <div class="mt-8 text-[15px] leading-relaxed opacity-95">
                         <p class="font-medium">Head office</p>
-                        <p>10 Harbour Ridge Drive</p>
-                        <p>Wiri, Auckland 2104</p>
-                        <p>Aotearoa New Zealand</p>
+                        <p>405 , Nastaran Tower</p>
+                        <p>Jaddaf Waterfront</p>
+                        <p>Dubai</p>
+                        <p>UAE</p>
+
+                        <!-- Get Direction -->
+                        <a :href="mapUrl" target="_blank" rel="noopener noreferrer"
+                            class="mt-3 inline-flex items-center gap-2 text-[14px] font-semibold underline underline-offset-4 hover:no-underline app-footer-subheading">
+                            <!-- small pin icon -->
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M12 21s-6-5.33-6-10a6 6 0 1 1 12 0c0 4.67-6 10-6 10z" />
+                                <circle cx="12" cy="11" r="2.5" />
+                            </svg>
+                            Get Direction
+                        </a>
                     </div>
 
                     <a href="/contact"
