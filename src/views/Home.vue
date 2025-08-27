@@ -1,5 +1,6 @@
 <template>
     <main>
+        <PageLoader />
         <HeroSlider />
         <EarthyPanel />
         <ProductsShowcase />
@@ -26,4 +27,5 @@ import OurStory from '../components/OurStory.vue'
 import CompanyValues from '../components/CompanyValues.vue'
 import Sustainability from '../components/Sustainability.vue'
 import Articles from '../components/Articles.vue'
+import PageLoader from '../components/PageLoader.vue'
 </script>
