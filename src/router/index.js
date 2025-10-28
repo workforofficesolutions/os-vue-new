@@ -6,23 +6,34 @@ const CaseStudy = () => import('../views/CaseStudy.vue')
 const ContactUs = () => import('../views/ContactUs.vue')
 const AllProducts = () => import('../views/AllProducts.vue')
 const ProductDetail = () => import('../views/ProductDetail.vue')
+const SectorDetail = () => import('../views/SectorDetail.vue')
 const NotFound = () => import('../views/NotFound.vue')
 
 export default createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         { path: '/', name: 'home', component: Home },
         { path: '/case-studies', name: 'case-studies', component: CaseStudiesList },
         { path: '/case-studies/:slug', name: 'case-study', component: CaseStudy, props: true },
         { path: '/contact', name: 'contact', component: ContactUs },
         { path: '/products', name: 'AllProducts', component: AllProducts },
-        { path: '/:pathMatch(.*)*', name: '404', component: NotFound },
         {
             path: '/products/:slug',
             name: 'product-detail',
             component: ProductDetail,
             props: true,
-        }
+        },
+        {
+            path: '/sectors/:slug',
+            name: 'sector-detail',
+            component: SectorDetail,
+            props: true,
+        },
+        { path: '/:pathMatch(.*)*', name: '404', component: NotFound },
     ],
-    scrollBehavior: () => ({ top: 0 }),
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) return savedPosition
+        if (to.hash) return { el: to.hash, behavior: 'smooth' }
+        return { top: 0 }
+    },
 })
