@@ -32,6 +32,7 @@ type Feature = 'PVC free' | 'Recycled Content' | 'Quick Ship' | 'Lifetime Warran
 type Price = '$' | '$$' | '$$$' | '$$$+'
 type Env = 'Declare' | 'GreenTag'
 type Shape = 'Squares' | 'Rolls' | 'Planks' | 'Hexagons' | 'Trapezes' | 'Seamless' | 'Custom rugs' | 'XL Planks'
+type StockFacetOption = 'Modulyss stock' | 'Amtico stock' | 'Unitile stock'
 
 type Variant = { name: string; image: string; color: string }
 
@@ -50,9 +51,10 @@ type Product = {
     shapes: Shape[]
     image: string
     variants?: Variant[]
+    inStockTotal?: number
 }
 
-const BRANDS = ['Modulyss', 'Amtico', 'Unitile'] as const
+const BRANDS = ['Modulyss', 'Amtico', 'Unitile', 'Armstrong'] as const
 const MATERIALS = ['Vinyl', 'Aluminium', 'Rubber', 'Carpet', 'Kinetex'] as const
 const APPS = [
     'Entrance',
@@ -69,6 +71,7 @@ const FEATURES = ['PVC free', 'Recycled Content', 'Quick Ship', 'Lifetime Warran
 const PRICES = ['$', '$$', '$$$', '$$$+'] as const
 const ENVS = ['Declare', 'GreenTag'] as const
 const SHAPES = ['Squares', 'Rolls', 'Planks', 'Hexagons', 'Trapezes', 'Seamless', 'Custom rugs', 'XL Planks'] as const
+const STOCKS = ['Modulyss stock', 'Amtico stock', 'Unitile stock'] as const
 
 // === Static catalogue (57 products) ===
 const STATIC_PRODUCTS: Product[] = [
@@ -130,7 +133,18 @@ const STATIC_PRODUCTS: Product[] = [
     { id: 54, brand: 'Unitile', title: 'Progrid', productDescription: 'Progrid is a very nice product.', applications: ['Service areas', 'Stairways'], materials: ['Aluminium', 'Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'NZ stock'], price: '$$', env: ['Declare'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
     { id: 55, brand: 'Unitile', title: 'Proform', productDescription: 'Proform is a very nice product.', applications: ['Entrance', 'Healthcare areas'], materials: ['Aluminium', 'Rubber'], patterns: ['Solid'], shades: ['Neutral'], features: ['Quick Ship', 'Green Certificate'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
     { id: 56, brand: 'Unitile', title: 'Proshield', productDescription: 'Proshield is a very nice product.', applications: ['Common & high traffic areas', 'Service areas'], materials: ['Rubber'], patterns: ['Textured'], shades: ['Light'], features: ['Durable', 'Compliant'], price: '$', env: ['Declare'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
-    { id: 57, brand: 'Unitile', title: 'Stepsafe', productDescription: 'Stepsafe is a very nice product.', applications: ['Stairways', 'Entrance'], materials: ['Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' }
+
+    { id: 57, brand: 'Armstrong', title: 'Prolattice', productDescription: 'Prolattice is a very nice product.', applications: ['Entrance', 'Common & high traffic areas'], materials: ['Aluminium', 'Rubber'], patterns: ['Geometric'], shades: ['Neutral'], features: ['Compliant', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+    { id: 58, brand: 'Armstrong', title: 'Progrid', productDescription: 'Progrid is a very nice product.', applications: ['Service areas', 'Stairways'], materials: ['Aluminium', 'Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'NZ stock'], price: '$$', env: ['Declare'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+    { id: 59, brand: 'Armstrong', title: 'Proform', productDescription: 'Proform is a very nice product.', applications: ['Entrance', 'Healthcare areas'], materials: ['Aluminium', 'Rubber'], patterns: ['Solid'], shades: ['Neutral'], features: ['Quick Ship', 'Green Certificate'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+    { id: 60, brand: 'Armstrong', title: 'Proshield', productDescription: 'Proshield is a very nice product.', applications: ['Common & high traffic areas', 'Service areas'], materials: ['Rubber'], patterns: ['Textured'], shades: ['Light'], features: ['Durable', 'Compliant'], price: '$', env: ['Declare'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+    { id: 61, brand: 'Armstrong', title: 'Stepsafe', productDescription: 'Stepsafe is a very nice product.', applications: ['Stairways', 'Entrance'], materials: ['Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+    { id: 62, brand: 'Armstrong', title: 'Stepsafe', productDescription: 'Stepsafe is a very nice product.', applications: ['Stairways', 'Entrance'], materials: ['Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp' },
+
+    { id: 63, brand: 'Modulyss', title: 'In-Stock Modulyss', productDescription: 'Modulyss Products which are in stock.', applications: ['Entrance', 'Common & high traffic areas'], materials: ['Carpet'], patterns: ['Textured'], shades: ['Neutral'], features: ['Durable', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Squares'], image: '/brand/modulyss/products/artus.webp', inStockTotal: 18 },
+    { id: 64, brand: 'Amtico', title: 'In-Stock Amtico', productDescription: 'Modulyss Products which are in stock.', applications: ['Service areas', 'Stairways'], materials: ['Vinyl'], patterns: ['Solid'], shades: ['Light'], features: ['Durable', 'Compliant'], price: '$$', env: ['Declare'], shapes: ['Planks'], image: '/brand/modulyss/products/artus.webp', inStockTotal: 8 },
+    { id: 65, brand: 'Unitile', title: 'In-Stock Unitile', productDescription: 'Modulyss Products which are in stock.', applications: ['Stairways', 'Entrance'], materials: ['Rubber'], patterns: ['Linear'], shades: ['Dark'], features: ['Durable', 'Recyclable'], price: '$$', env: ['GreenTag'], shapes: ['Rolls'], image: '/brand/modulyss/products/artus.webp', inStockTotal: 1 },
+
 ]
 
 const ALL = ref<Product[]>(STATIC_PRODUCTS)
@@ -165,6 +179,17 @@ function slugify(title: string) {
         .replace(/^-+|-+$/g, ''); // trim dashes
 }
 
+function productLink(p: Product) {
+    const isInStockTile = p.title.toLowerCase().includes('in-stock');
+    if (isInStockTile) {
+        // Route In-Stock tiles to the dedicated instock route per brand
+        const brandSlug = p.brand.toLowerCase();
+        return `/products/instock/${brandSlug}`;
+    }
+    // Default behaviour: slug-based product detail route
+    return `/products/${slugify(p.title)}`;
+}
+
 // Ensure every product carries a concrete variants[] array (fallbacks applied once)
 ALL.value = STATIC_PRODUCTS.map((p) => ({
     ...p,
@@ -175,11 +200,12 @@ ALL.value = STATIC_PRODUCTS.map((p) => ({
    Facets: single source of truth
    ========================= */
 
-type FacetKey = 'brand' | 'applications' | 'materials' | 'patterns' | 'shades' | 'features' | 'price' | 'env' | 'shapes'
+type FacetKey = 'stock' | 'brand' | 'applications' | 'materials' | 'patterns' | 'shades' | 'features' | 'price' | 'env' | 'shapes'
 
 type FacetDef = { key: FacetKey; title: string }
 
 const FACET_DEFS: FacetDef[] = [
+    { key: 'stock', title: 'In-stock availability' },
     { key: 'brand', title: 'Brand' },
     { key: 'applications', title: 'Applications' },
     { key: 'materials', title: 'Materials' },
@@ -192,6 +218,7 @@ const FACET_DEFS: FacetDef[] = [
 ]
 
 const FACET_OPTIONS: Record<FacetKey, readonly string[]> = {
+    stock: STOCKS,
     brand: BRANDS,
     applications: APPS,
     materials: MATERIALS,
@@ -205,6 +232,17 @@ const FACET_OPTIONS: Record<FacetKey, readonly string[]> = {
 
 // How a product matches a single option for a given facet
 const FACET_PREDICATE: Record<FacetKey, (p: Product, opt: string) => boolean> = {
+    stock: (p, o) => {
+        const label = o.toLowerCase();
+        const title = p.title.toLowerCase();
+        const isInStockTile = title.includes('in-stock');
+        if (!isInStockTile) return false;
+
+        if (label.includes('modulyss')) return p.brand === 'Modulyss';
+        if (label.includes('amtico')) return p.brand === 'Amtico';
+        if (label.includes('unitile')) return p.brand === 'Unitile';
+        return false;
+    },
     brand: (p, o) => p.brand === (o as Brand),
     applications: (p, o) => p.applications.includes(o as Application),
     materials: (p, o) => p.materials.includes(o as Material),
@@ -224,6 +262,7 @@ const querySearch = ref('')
 
 function makeEmptyFilters(): Record<FacetKey, Set<string>> {
     return {
+        stock: new Set(),
         brand: new Set(),
         applications: new Set(),
         materials: new Set(),
@@ -351,6 +390,7 @@ function isQuickActive(item: typeof QUICK_MENU[number]) {
 
 // Accordion state
 const openPanels = reactive<Record<FacetKey, boolean>>({
+    stock: true,
     brand: true,
     applications: false,
     materials: false,
@@ -499,14 +539,28 @@ const filtered = computed(() => {
 })
 
 function facetOptionCount(facet: FacetKey, option: string) {
-    const term = querySearch.value.trim().toLowerCase()
+    // Special case: In-stock availability uses static totals from the three In-Stock tiles
+    if (facet === 'stock') {
+        const label = option.toLowerCase();
+        let brand: Brand | null = null;
+        if (label.includes('modulyss')) brand = 'Modulyss';
+        else if (label.includes('amtico')) brand = 'Amtico';
+        else if (label.includes('unitile')) brand = 'Unitile';
+
+        if (!brand) return 0;
+
+        const tile = ALL.value.find(p => p.title.toLowerCase().includes('in-stock') && p.brand === brand);
+        return tile?.inStockTotal ?? 0;
+    }
+
+    const term = querySearch.value.trim().toLowerCase();
     return ALL.value.filter(p => {
-        const matchesSearch = !term || p.title.toLowerCase().includes(term) || p.brand.toLowerCase().includes(term)
-        if (!matchesSearch) return false
+        const matchesSearch = !term || p.title.toLowerCase().includes(term) || p.brand.toLowerCase().includes(term);
+        if (!matchesSearch) return false;
         // treat this option as if selected; other facets as in state
-        if (!FACET_PREDICATE[facet](p, option)) return false
-        return productMatchesFacets(p, facet)
-    }).length
+        if (!FACET_PREDICATE[facet](p, option)) return false;
+        return productMatchesFacets(p, facet);
+    }).length;
 }
 
 const hasAnyActiveFilter = computed(() => (Object.values(filters) as Array<Set<string>>).some(s => s.size > 0))
@@ -620,21 +674,42 @@ function getSet(key: FacetKey) { return filters[key] }
               </header>
               <div class="drawer-body">
                 <div v-for="f in FACET_DEFS" :key="f.key" class="pt-0">
-                  <button class="w-full flex items-center justify-between text-left py-1" @click="togglePanel(f.key)">
-                    <span class="filters-title">{{ f.title }}</span>
-                    <svg viewBox="0 0 18 14" class="w-4 h-4 transition-transform" :class="openPanels[f.key] ? 'rotate-180' : ''">
-                      <path d="M1 4l8 8 8-8" stroke="currentColor" stroke-width="2" fill="none" />
-                    </svg>
-                  </button>
-                  <div v-show="openPanels[f.key]" class="mt-1 flex flex-col gap-0.5">
-                    <label v-for="opt in optionsFor(f.key)" :key="String(opt)" class="filters-option inline-flex items-center gap-2 py-1">
-                      <input class="filters-checkbox" type="checkbox"
-                             :checked="getSet(f.key).has(opt as string)"
-                             @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)" />
-                      <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
-                      <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
-                    </label>
-                  </div>
+                  <!-- Special case: stock facet should have no title, just the options -->
+                  <template v-if="f.key === 'stock'">
+                    <div class="mt-1 flex flex-col gap-0.5">
+                      <label v-for="opt in optionsFor(f.key)" :key="String(opt)" class="filters-option inline-flex items-center gap-2 py-1">
+                        <input
+                          class="filters-checkbox"
+                          type="checkbox"
+                          :checked="getSet(f.key).has(opt as string)"
+                          @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)"
+                        />
+                        <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
+                        <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
+                      </label>
+                    </div>
+                  </template>
+                  <!-- Default: regular titled accordion facet -->
+                  <template v-else>
+                    <button class="w-full flex items-center justify-between text-left py-1" @click="togglePanel(f.key)">
+                      <span class="filters-title">{{ f.title }}</span>
+                      <svg viewBox="0 0 18 14" class="w-4 h-4 transition-transform" :class="openPanels[f.key] ? 'rotate-180' : ''">
+                        <path d="M1 4l8 8 8-8" stroke="currentColor" stroke-width="2" fill="none" />
+                      </svg>
+                    </button>
+                    <div v-show="openPanels[f.key]" class="mt-1 flex flex-col gap-0.5">
+                      <label v-for="opt in optionsFor(f.key)" :key="String(opt)" class="filters-option inline-flex items-center gap-2 py-1">
+                        <input
+                          class="filters-checkbox"
+                          type="checkbox"
+                          :checked="getSet(f.key).has(opt as string)"
+                          @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)"
+                        />
+                        <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
+                        <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
+                      </label>
+                    </div>
+                  </template>
                 </div>
               </div>
               <footer class="drawer-footer">
@@ -651,24 +726,45 @@ function getSet(key: FacetKey) { return filters[key] }
             <aside v-if="showFilters" class="filters-col hidden lg:block">
                 <div class="filters-sticky pr-2">
                     <div v-for="f in FACET_DEFS" :key="f.key" class="pt-0">
-                        <button class="w-full flex items-center justify-between text-left py-1"
-                            @click="togglePanel(f.key)">
-                            <span class="filters-title">{{ f.title }}</span>
-                            <svg viewBox="0 0 18 14" class="w-4 h-4 transition-transform"
-                                :class="openPanels[f.key] ? 'rotate-180' : ''">
-                                <path d="M1 4l8 8 8-8" stroke="currentColor" stroke-width="2" fill="none" />
-                            </svg>
-                        </button>
-                        <div v-show="openPanels[f.key]" class="mt-1 flex flex-col gap-0.5">
-                            <label v-for="opt in optionsFor(f.key)" :key="String(opt)"
-                                class="filters-option inline-flex items-center gap-2 py-1">
-                                <input class="filters-checkbox" type="checkbox"
-                                    :checked="getSet(f.key).has(opt as string)"
-                                    @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)" />
-                                <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
-                                <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
-                            </label>
-                        </div>
+                        <!-- Special case: stock facet should have no title, just the options -->
+                        <template v-if="f.key === 'stock'">
+                            <div class="mt-1 flex flex-col gap-0.5">
+                                <label v-for="opt in optionsFor(f.key)" :key="String(opt)"
+                                    class="filters-option inline-flex items-center gap-2 py-1">
+                                    <input
+                                      class="filters-checkbox"
+                                      type="checkbox"
+                                      :checked="getSet(f.key).has(opt as string)"
+                                      @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)"
+                                    />
+                                    <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
+                                    <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
+                                </label>
+                            </div>
+                        </template>
+                        <!-- Default: regular titled accordion facet -->
+                        <template v-else>
+                            <button class="w-full flex items-center justify-between text-left py-1"
+                                @click="togglePanel(f.key)">
+                                <span class="filters-title">{{ f.title }}</span>
+                                <svg viewBox="0 0 18 14" class="w-4 h-4 transition-transform"
+                                    :class="openPanels[f.key] ? 'rotate-180' : ''">
+                                    <path d="M1 4l8 8 8-8" stroke="currentColor" stroke-width="2" fill="none" />
+                                </svg>
+                            </button>
+                            <div v-show="openPanels[f.key]" class="mt-1 flex flex-col gap-0.5">
+                                <label v-for="opt in optionsFor(f.key)" :key="String(opt)"
+                                    class="filters-option inline-flex items-center gap-2 py-1">
+                                    <input
+                                      class="filters-checkbox"
+                                      type="checkbox"
+                                      :checked="getSet(f.key).has(opt as string)"
+                                      @change="getSet(f.key).has(opt as string) ? getSet(f.key).delete(opt as string) : getSet(f.key).add(opt as string)" />
+                                    <span class="opt-label flex-1 leading-tight">{{ opt }}</span>
+                                    <sup class="opt-count">{{ facetOptionCount(f.key, opt as string) }}</sup>
+                                </label>
+                            </div>
+                        </template>
                     </div>
                 </div>
             </aside>
@@ -680,14 +776,14 @@ function getSet(key: FacetKey) { return filters[key] }
                     <div
                         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 grid-with-col-lines">
                         <article v-for="p in paged" :key="p.id" class="bg-white border border-black/10 overflow-hidden">
-                            <RouterLink :to="`/products/${slugify(p.title)}`" class="block">
+                            <RouterLink :to="productLink(p)" class="block">
                               <div class="aspect-[4/3] bg-[#EEE]">
                                 <img :src="p.image" :alt="p.title" class="w-full h-full object-cover" />
                               </div>
                             </RouterLink>
                             <div class="p-5">
                                 <h3 class="text-[clamp(16px,1.2vw,18px)] font-medium mb-1.5">
-                                  <RouterLink :to="`/products/${slugify(p.title)}`">{{ p.title }}</RouterLink>
+                                  <RouterLink :to="productLink(p)">{{ p.title }}</RouterLink>
                                 </h3>
                                 <div class="text-sm text-black/60">{{ p.brand }} · {{ p.materials.join(', ') }}</div>
                                 <div class="mt-3 text-xs text-black/60">Price: {{ p.price }}</div>
@@ -723,14 +819,14 @@ function getSet(key: FacetKey) { return filters[key] }
                 <div v-else-if="viewMode === 'list'">
                     <ul class="divide-y divide-black/10 bg-transparent">
                         <li v-for="p in paged" :key="p.id" class="flex items-center gap-4 py-4">
-                            <RouterLink :to="`/products/${slugify(p.title)}`" class="block w-28 h-20 flex-shrink-0">
+                            <RouterLink :to="productLink(p)" class="block w-28 h-20 flex-shrink-0">
                               <div class="w-28 h-20 bg-[#EEE] overflow-hidden">
                                 <img :src="p.image" :alt="p.title" class="w-full h-full object-cover" />
                               </div>
                             </RouterLink>
                             <div class="min-w-0 flex-1">
                                 <h3 class="text-[clamp(16px,1.2vw,18px)] font-medium truncate">
-                                  <RouterLink :to="`/products/${slugify(p.title)}`">{{ p.title }}</RouterLink>
+                                  <RouterLink :to="productLink(p)">{{ p.title }}</RouterLink>
                                 </h3>
                                 <div class="text-sm text-black/60 truncate">{{ p.brand }} · {{ p.materials.join(', ') }}
                                 </div>

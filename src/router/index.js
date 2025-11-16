@@ -6,6 +6,8 @@ const CaseStudy = () => import('../views/CaseStudy.vue')
 const ContactUs = () => import('../views/ContactUs.vue')
 const AllProducts = () => import('../views/AllProducts.vue')
 const ProductDetail = () => import('../views/ProductDetail.vue')
+const InStockProducts = () => import('../views/InStockProducts.vue')
+const DesignerChoice = () => import('../views/DesignerChoice.vue')
 const SectorDetail = () => import('../views/SectorDetail.vue')
 const NotFound = () => import('../views/NotFound.vue')
 
@@ -18,10 +20,21 @@ export default createRouter({
         { path: '/contact', name: 'contact', component: ContactUs },
         { path: '/products', name: 'AllProducts', component: AllProducts },
         {
+            path: '/designers-choice',
+            name: 'DesignerChoice',
+            component: DesignerChoice,
+        },
+        {
             path: '/products/:slug',
             name: 'product-detail',
             component: ProductDetail,
             props: true,
+        },
+        {
+            path: '/products/instock/:brand',
+            name: 'InStockProducts',
+            component: InStockProducts,
+            props: true
         },
         {
             path: '/sectors/:slug',

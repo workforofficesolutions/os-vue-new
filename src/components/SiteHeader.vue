@@ -231,9 +231,10 @@ const groups = {
     queryKey: 'brand',
     ctaText: 'Explore brands',
     items: [
-      { title: 'Modulyss', image: '/products/brands/modulyss.jpg', blurb: 'Design-led carpet tiles with circularity in mind.' },
+      { title: 'Modulyss', image: '/brand/modulyss/products/artus.webp', blurb: 'Design-led carpet tiles with circularity in mind.' },
       { title: 'Amtico', image: '/products/brands/amtico.jpg', blurb: 'Premium LVT with outstanding design flexibility.' },
       { title: 'Unitile', image: '/products/brands/unitile.jpg', blurb: 'Accessible raised access flooring for modern workplaces.' },
+      { title: 'Armstrong', image: '/products/brands/armstrong.jpg', blurb: 'Design-led carpet tiles with durability in mind.' },
     ],
   },
 }
@@ -563,14 +564,21 @@ onBeforeUnmount(killTrigger)
               </ul>
               <hr class="my-5 border-black/10">
               <nav class="space-y-2 text-sm">
-                <a href="/products" class="block type-utility text-black/80 hover:text-black"><span
-                    class="underline-sweep">View all products</span></a>
-                <a href="#" class="block type-utility text-black/80 hover:text-black"><span
-                    class="underline-sweep">Ramps and trims</span></a>
-                <a href="#" class="block type-utility text-black/80 hover:text-black"><span
-                    class="underline-sweep">Materials</span></a>
-                <a href="#" class="block type-utility text-black/80 hover:text-black"><span
-                    class="underline-sweep">Bespoke</span></a>
+                <a href="/products" class="block type-utility text-black/80 hover:text-black">
+                  <span class="underline-sweep">View all products</span>
+                </a>
+                <a href="/designers-choice" class="block type-utility text-black/80 hover:text-black">
+                  <span class="underline-sweep">Designer’s choice</span>
+                </a>
+                <a href="#" class="block type-utility text-black/80 hover:text-black">
+                  <span class="underline-sweep">Ramps and trims</span>
+                </a>
+                <a href="#" class="block type-utility text-black/80 hover:text-black">
+                  <span class="underline-sweep">Materials</span>
+                </a>
+                <a href="#" class="block type-utility text-black/80 hover:text-black">
+                  <span class="underline-sweep">Bespoke</span>
+                </a>
               </nav>
             </div>
 
@@ -666,8 +674,20 @@ onBeforeUnmount(killTrigger)
 
             <hr class="my-2 border-black/10">
 
-            <button type="button" class="block text-left type-mobile-link"
-              @click="() => { router.push('/products'); open = false }">View all products</button>
+            <button
+              type="button"
+              class="block text-left type-mobile-link"
+              @click="() => { router.push('/products'); open = false }"
+            >
+              View all products
+            </button>
+            <button
+              type="button"
+              class="block text-left type-mobile-link"
+              @click="() => { router.push('/designers-choice'); open = false }"
+            >
+              Designer’s choice
+            </button>
             <button type="button" class="block text-left type-mobile-link">Ramps and trims</button>
             <button type="button" class="block text-left type-mobile-link">Materials</button>
             <button type="button" class="block text-left type-mobile-link">Bespoke</button>
