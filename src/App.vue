@@ -7,12 +7,14 @@
     </div>
     <!-- ensure no extra gap above the footer -->
     <SiteFooter class="mt-0" />
+    <WhatsappWidget />
   </div>
 </template>
 
 <script setup>
 import SiteHeader from './components/SiteHeader.vue'
 import SiteFooter from './components/SiteFooter.vue'
+import WhatsappWidget from './components/WhatsappWidget.vue';
 </script>
 
 <style>
