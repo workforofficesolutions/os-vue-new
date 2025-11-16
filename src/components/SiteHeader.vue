@@ -185,6 +185,7 @@ const TOPS = [
   { key: 'categories', label: 'By category' },
   { key: 'applications', label: 'By application' },
   { key: 'brands', label: 'By brand' },
+  { key: 'availability', label: 'By availability' },
 ]
 
 // Scalable content model for the drawers
@@ -237,6 +238,33 @@ const groups = {
       { title: 'Armstrong', image: '/products/brands/armstrong.jpg', blurb: 'Design-led carpet tiles with durability in mind.' },
     ],
   },
+  availability: {
+    title: 'Availability',
+    blurb:
+      'Jump straight to our in-stock ranges for faster delivery and simpler selections.',
+    queryKey: 'availability',
+    // No CTA path for now, this group just sends users to dedicated in-stock pages.
+    items: [
+      {
+        title: 'Modulyss – In stock',
+        image: '/brand/modulyss/products/artus.webp',
+        blurb: 'See our current in-stock Modulyss carpet tile ranges for quick turnaround projects.',
+        brandSlug: 'modulyss',
+      },
+      {
+        title: 'Amtico – In stock',
+        image: '/products/brands/amtico.jpg',
+        blurb: 'View Amtico LVT designs we currently hold in stock for faster delivery.',
+        brandSlug: 'amtico',
+      },
+      {
+        title: 'Unitile – In stock',
+        image: '/products/brands/unitile.jpg',
+        blurb: 'Browse Unitile raised access flooring panels available ex-stock for your projects.',
+        brandSlug: 'unitile',
+      },
+    ],
+  },
 }
 
 const currentGroup = computed(() => (hoveredTop.value ? groups[hoveredTop.value] : null))
@@ -279,6 +307,17 @@ function cancelClose() {
 
 function goTo(item, group) {
   if (!item || !group) return
+
+  // Special routing for Availability → dedicated in-stock pages
+  if (group.queryKey === 'availability') {
+    const slug = (item.brandSlug || '').toString().toLowerCase().trim()
+    if (slug) {
+      router.push({ path: `/products/instock/${slug}` })
+      closeProducts()
+      return
+    }
+  }
+
   const key = group.queryKey
 
   // Base query: clicked dimension + default view
