@@ -14,13 +14,16 @@ import InstagramFeed from './InstagramFeed.vue';
         </div>
 
         <div class="mt-10 text-center">
-            <a
-                href="https://www.instagram.com/officesolutionsuae"
-                target="_blank"
-                rel="noopener"
-                class="inline-block border border-black px-6 py-3 text-sm uppercase tracking-widest font-semibold text-black rounded-full hover:bg-[#DD4912] hover:text-white transform hover:scale-105 transition-all duration-300"
-            >
-                Follow us on Instagram
+            <a href="https://www.instagram.com/officesolutionsuae" target="_blank" rel="noopener"
+                class="relative overflow-hidden inline-flex items-center gap-2 px-4 py-2 text-sm transition-colors duration-300 group focus:outline-none focus-visible:ring-2 focus-visible:ring-black/40"
+                style="background-color: #E8E2D7; color: #111;">
+                <span class="relative z-10 transition-colors duration-300 group-hover:text-white">
+                    Follow us on Instagram
+                </span>
+                <span class="relative z-10 transition-colors duration-300 group-hover:text-white" aria-hidden>→</span>
+
+                <span
+                    class="absolute inset-0 bg-black translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </a>
         </div>
 
@@ -29,6 +32,4 @@ import InstagramFeed from './InstagramFeed.vue';
 </template>
 
 
-<style scoped>
-
-</style>
+<style scoped></style>
