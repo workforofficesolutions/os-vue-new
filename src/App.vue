@@ -2,7 +2,7 @@
   <div id="layout" class="min-h-screen flex flex-col bg-[#F4EFE7]">
     <SiteHeader />
     <!-- content area fills remaining height; overflow hidden prevents margin-collapsing white gaps -->
-    <div class="flex-1 overflow-hidden">
+    <div class="flex-1">
       <router-view />
     </div>
     <!-- ensure no extra gap above the footer -->
@@ -19,6 +19,6 @@ import WhatsappWidget from './components/WhatsappWidget.vue';
 
 <style>
 /* Ensure root stretches and no default margins cause seams */
-html, body, #app { height: 100%; }
+html, body, #app { min-height: 100%; }
 body { margin: 0; }
 </style>
