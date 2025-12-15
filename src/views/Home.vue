@@ -12,7 +12,7 @@
             bg="https://cdn.sanity.io/images/0q894uzm/production/ffac81dea1d30f83e2046df800b5d5b4bafe4b0c-2000x1333.jpg?&q=90&fit=max&auto=format&w=3840"
             card-image="/cases/sustainability-heli.avif" card-alt="Westpac rescue helicopter over forest" />
         <Articles />
-
+        <InstaBlock />
     </main>
 </template>
 
@@ -27,4 +27,5 @@ import OurStory from '../components/OurStory.vue'
 import CompanyValues from '../components/CompanyValues.vue'
 import Sustainability from '../components/Sustainability.vue'
 import Articles from '../components/Articles.vue'
+import InstaBlock from '../components/InstaBlock.vue'
 </script>
