@@ -14,12 +14,12 @@ const groups = {
         items: [
             {
                 title: 'Entrance systems',
-                image: '/block3/block3-entrancesystems.jpg',
+                image: '/home/Block03-01.webp',
                 blurb:
                     'Alongside our very own aluminium Architectural Series, we offer a wide variety of entry carpets designed to trap dirt and moisture at the door, ensuring cleaner, safer interiors.',
             },
-            { title: 'Carpet flooring', image: '/block3/block3-carpetflooring.jpg', blurb: '' },
-            { title: 'Vinyl flooring', image: '/block3/block3-vinylflooring.jpg', blurb: '' },
+            { title: 'Carpet flooring', image: '/home/Block03-02.webp', blurb: '' },
+            { title: 'Vinyl flooring', image: '/home/Block03-03.webp', blurb: '' },
             { title: 'Rubber flooring', image: '/block3/block3-rubberflooring.jpg', blurb: '' },
             { title: 'Kinetex® flooring', image: '/block3/block3-kinetexflooring.jpg', blurb: '' },
         ],

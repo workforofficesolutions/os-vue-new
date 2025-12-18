@@ -5,7 +5,7 @@ export const caseStudies = [
     {
         title: 'Te Kura o Wairakei School',
         sector: 'Education',
-        image: '/cases/te-kura-main.avif',
+        image: '/home/Block05-01.webp',
         material: '/cases/te-kura-material.avif',
         largeShape: 'cut-tl',
         smallShape: 'circle',
@@ -13,7 +13,7 @@ export const caseStudies = [
     {
         title: 'Anderson Lloyd - Christchurch',
         sector: 'Workplace',
-        image: '/cases/anderson-main.avif',
+        image: '/home/Block05-02.webp',
         material: '/cases/anderson-material.avif',
         largeShape: 'cut-br',
         smallShape: 'square',
@@ -21,7 +21,7 @@ export const caseStudies = [
     {
         title: 'Motueka High School',
         sector: 'Education',
-        image: '/cases/motueka-main.avif',
+        image: '/home/Block05-03.webp',
         material: '/cases/motueka-material.avif',
         largeShape: 'cut-tr',
         smallShape: 'circle',
@@ -29,7 +29,7 @@ export const caseStudies = [
     {
         title: 'Lakeside Civic Centre',
         sector: 'Public',
-        image: '/cases/takina-convention.avif',
+        image: '/home/Block05-04.webp',
         material: '/cases/takina-convention-material.avif',
         largeShape: 'cut-bl',
         smallShape: 'square',
@@ -37,7 +37,7 @@ export const caseStudies = [
     {
         title: 'Re:Form Studio',
         sector: 'Workplace',
-        image: '/cases/te-waka.avif',
+        image: '/home/Block05-05.webp',
         material: '/cases/te-waka-material.avif',
         largeShape: 'cut-tr',
         smallShape: 'circle',

@@ -16,11 +16,11 @@ const props = defineProps({
 
 /* Data */
 const sectors = [
-  { label: 'Workplace', img: '/block4/block4-workplace.jpg' },
-  { label: 'Education', img: '/block4/block4-education.jpg' },
-  { label: 'Healthcare', img: '/block4/block4-healthcare.jpg', pos: '40% 50%' },
-  { label: 'Public buildings', img: '/block4/block4-publicbuildings.jpg' },
-  { label: 'Aged care', img: '/block4/block4-agedcare.jpg' },
+  { label: 'Workplace', img: '/home/Block04-01.webp' },
+  { label: 'Education', img: '/home/Block04-02.webp' },
+  { label: 'Healthcare', img: '/home/Block04-03.webp', pos: '40% 50%' },
+  { label: 'Public buildings', img: '/home/Block04-04.webp' },
+  { label: 'Aged care', img: '/home/Block04-05.webp.jpg' },
   { label: 'Shopping & showrooms', img: '/block4/block4-shopping.jpg' },
   { label: 'Sport', img: '/block4/block4-sport.jpg' },
 ]

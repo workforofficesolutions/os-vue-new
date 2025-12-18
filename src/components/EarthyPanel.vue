@@ -77,7 +77,7 @@ onMounted(async () => {
       <!-- Left (image) — md:5 / 12, taller on big screens -->
       <div class="md:col-span-5">
         <div class="overflow-hidden shadow-lg h-[360px] sm:h-[420px] md:h-[520px] lg:h-[620px]">
-          <img src="/hero/block2.jpg" alt="Earthy closeup" class="w-full h-full object-cover" />
+          <img src="/home/Block-2.webp" alt="Earthy closeup" class="w-full h-full object-cover" />
         </div>
       </div>
 
