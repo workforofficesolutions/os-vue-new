@@ -33,9 +33,23 @@
 
       <!-- Details: Description, actions, and swatches. Third on mobile; left column on desktop. -->
       <div class="order-3 lg:order-none space-y-4">
-        <p class="text-neutral-900 leading-relaxed text-[0.95rem] sm:text-base md:text-lg">
-          {{ product.productDescription }}
-        </p>
+        <div class="text-neutral-900 leading-relaxed text-[0.95rem] sm:text-base md:text-lg">
+          <template v-for="(block, i) in descriptionBlocks" :key="i">
+            <p v-if="block.type === 'p'" class="mt-4 first:mt-0">
+              <template v-for="(seg, j) in parseInlineBold(block.text)" :key="j">
+                <span :class="seg.bold ? 'font-semibold' : ''">{{ seg.text }}</span>
+              </template>
+            </p>
+
+            <ul v-else class="mt-4 first:mt-0 list-disc pl-5 space-y-1">
+              <li v-for="(line, j) in block.items" :key="j">
+                <template v-for="(seg, k) in parseInlineBold(line)" :key="k">
+                  <span :class="seg.bold ? 'font-semibold' : ''">{{ seg.text }}</span>
+                </template>
+              </li>
+            </ul>
+          </template>
+        </div>
 
         <div class="flex gap-3 mt-5 mb-3 sm:mb-4">
           <button
@@ -130,8 +144,30 @@
       </h2>
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-6 gap-y-8 sm:gap-x-8 sm:gap-y-10 lg:gap-x-10 lg:gap-y-14">
         <div v-for="v in product.variants" :key="v.name" class="group">
-          <div class="relative w-full pt-[100%] border border-neutral-200 bg-white overflow-hidden">
-            <img :src="v.image" :alt="v.name" class="absolute inset-0 w-full h-full object-cover block" loading="lazy" />
+          <div
+            class="relative w-full pt-[100%] border border-neutral-200 bg-white overflow-hidden"
+            @mouseenter="ensureHoverLoaded(v)"
+            @focusin="ensureHoverLoaded(v)"
+            @touchstart.passive="ensureHoverLoaded(v)"
+          >
+            <!-- Primary (default) image -->
+            <img
+              :src="v.image"
+              :alt="v.name"
+              class="absolute inset-0 w-full h-full object-cover block transition-opacity duration-200 group-hover:opacity-0"
+              loading="lazy"
+              decoding="async"
+            />
+
+            <!-- Hover image (lazy preloaded on first interaction) -->
+            <img
+              v-if="hoverReady[v.image]"
+              :src="hoverSrc[v.image] || hoverImage(v.image)"
+              :alt="v.name"
+              class="absolute inset-0 w-full h-full object-cover block opacity-0 transition-opacity duration-200 group-hover:opacity-100"
+              loading="lazy"
+              decoding="async"
+            />
           </div>
           <p class="mt-2 text-base md:text-lg font-semibold text-neutral-900">{{ v.name }}</p>
           <a :href="v.image" :download="v.name" class="text-xs md:text-sm underline text-neutral-800">Download image</a>
@@ -161,9 +197,87 @@ const slugify = (s) => slugifyCatalog(s)
 const wantedSlug = computed(() => slugify(route.params.slug || ''))
 const product = computed(() => findProductBySlug(wantedSlug.value))
 
+// Parse inline bold markers: **bold** (no v-html needed)
+const parseInlineBold = (text = '') => {
+  const s = String(text)
+  if (!s) return []
+
+  // Split and keep **...** tokens
+  const parts = s.split(/(\*\*[^*]+\*\*)/g).filter(Boolean)
+
+  return parts.map((p) => {
+    const bold = p.startsWith('**') && p.endsWith('**') && p.length >= 4
+    return { text: bold ? p.slice(2, -2) : p, bold }
+  })
+}
+
+const descriptionBlocks = computed(() => {
+  const raw = product.value?.productDescription || ''
+
+  // Blocks are separated by a blank line (paragraph break)
+  const blocks = raw
+    .split(/\n\s*\n/g)
+    .map((b) => b.trim())
+    .filter(Boolean)
+
+  return blocks.map((b) => {
+    const lines = b
+      .split(/\n+/g)
+      .map((s) => s.trim())
+      .filter(Boolean)
+
+    // If a block contains multiple lines, treat it as a bullet list.
+    // Supports optional '-' or '•' prefixes.
+    if (lines.length > 1) {
+      return {
+        type: 'ul',
+        items: lines.map((l) => l.replace(/^[-•]\s+/, '').trim()),
+      }
+    }
+
+    return {
+      type: 'p',
+      text: lines[0] || '',
+    }
+  })
+})
+
 const roomshotsTrack = ref(null)
 const currentShot = ref(0)
 const coloursRef = ref(null)
+
+// Hover image support (Amtico convention: hover image has `h-` prefix)
+const hoverReady = ref({})
+const hoverSrc = ref({})
+
+const hoverImage = (img) => {
+  if (!img) return img
+  const parts = String(img).split('/')
+  const file = parts.pop()
+  return [...parts, `h-${file}`].join('/')
+}
+
+const ensureHoverLoaded = (v) => {
+  const key = v?.image
+  if (!key) return
+  if (hoverReady.value[key]) return
+
+  const hover = hoverImage(key)
+  if (!hover) return
+
+  // Preload once; if the hover image (h-*) doesn't exist, fall back to the primary image.
+  const pre = new Image()
+  pre.onload = () => {
+    hoverSrc.value = { ...hoverSrc.value, [key]: hover }
+    hoverReady.value = { ...hoverReady.value, [key]: true }
+  }
+  pre.onerror = () => {
+    // Fallback: treat primary as hover so UI still works for brands without hover assets
+    hoverSrc.value = { ...hoverSrc.value, [key]: key }
+    hoverReady.value = { ...hoverReady.value, [key]: true }
+  }
+  pre.src = hover
+}
 
 const scrollToShot = (i) => {
   const container = roomshotsTrack.value

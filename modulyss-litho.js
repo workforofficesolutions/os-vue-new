@@ -1,0 +1,62 @@
+export default [
+    {
+        id: 27,
+        brand: 'Modulyss',
+        title: 'Litho',
+        slug: 'litho',
+        productDescription:
+            'Like a cityscape viewed from above, carpet tile collection Litho gives an urban and structured look to your interior, enhanced by its loop pile texture. Experiment with adding more tranquillity to your design by making a transition to Core, the basic design of the Artcore collection, with the Litho Gradient tile. The contrasting patterns will help differentiate between various zones and can assist with wayfinding. The Litho collection is 100% made from ECONYL® yarn and holds the Cradle-to-Cradle® certification.',
+        applications: ['Entrance', 'Healthcare areas'],
+        materials: ['Carpet'],
+        patterns: ['Geometric'],
+        shades: ['Light'],
+        features: ['Recycled Content', 'Compliant'],
+        price: '$$',
+        env: ['GreenTag'],
+        shapes: ['Squares'],
+        image: '/brand/modulyss/products/litho.webp',
+        variants: [
+            { name: 'Litho 010', image: '/brand/modulyss/products/litho/variants/litho-010.webp', swatch: '#BFC6CC' },
+            { name: 'Litho 012', image: '/brand/modulyss/products/litho/variants/litho-012.webp', swatch: '#D2D4D3' },
+            { name: 'Litho 208', image: '/brand/modulyss/products/litho/variants/litho-208.webp', swatch: '#8FA0AE' },
+            { name: 'Litho 389', image: '/brand/modulyss/products/litho/variants/litho-389.webp', swatch: '#5C6D7A' },
+            { name: 'Litho 398', image: '/brand/modulyss/products/litho/variants/litho-398.webp', swatch: '#2D3A4B' },
+            { name: 'Litho 501', image: '/brand/modulyss/products/litho/variants/litho-501.webp', swatch: '#2F4F3E' },
+            { name: 'Litho 518', image: '/brand/modulyss/products/litho/variants/litho-518.webp', swatch: '#9A8776' },
+            { name: 'Litho 626', image: '/brand/modulyss/products/litho/variants/litho-626.webp', swatch: '#BFC6CC' },
+            { name: 'Litho 659', image: '/brand/modulyss/products/litho/variants/litho-659.webp', swatch: '#7D8488' },
+            { name: 'Litho 672', image: '/brand/modulyss/products/litho/variants/litho-672.webp', swatch: '#D6D7D7' },
+            { name: 'Litho 853', image: '/brand/modulyss/products/litho/variants/litho-853.webp', swatch: '#5A5A5A' },
+            { name: 'Litho 901', image: '/brand/modulyss/products/litho/variants/litho-901.webp', swatch: '#2F3131' },
+            { name: 'Litho 904', image: '/brand/modulyss/products/litho/variants/litho-904.webp', swatch: '#3E4143' },
+            { name: 'Litho 911', image: '/brand/modulyss/products/litho/variants/litho-911.webp', swatch: '#1E2022' },
+            { name: 'Litho 932', image: '/brand/modulyss/products/litho/variants/litho-932.webp', swatch: '#111111' },
+            { name: 'Litho 983', image: '/brand/modulyss/products/litho/variants/litho-983.webp', swatch: '#8E867F' },
+
+            { name: 'Litho Gradient 010', image: '/brand/modulyss/products/litho/variants/litho-gradient-010.webp', swatch: '#BFC6CC' },
+            { name: 'Litho Gradient 012', image: '/brand/modulyss/products/litho/variants/litho-gradient-012.webp', swatch: '#D2D4D3' },
+            { name: 'Litho Gradient 208', image: '/brand/modulyss/products/litho/variants/litho-gradient-208.webp', swatch: '#8FA0AE' },
+            { name: 'Litho Gradient 389', image: '/brand/modulyss/products/litho/variants/litho-gradient-389.webp', swatch: '#5C6D7A' },
+            { name: 'Litho Gradient 398', image: '/brand/modulyss/products/litho/variants/litho-gradient-398.webp', swatch: '#2D3A4B' },
+            { name: 'Litho Gradient 501', image: '/brand/modulyss/products/litho/variants/litho-gradient-501.webp', swatch: '#2F4F3E' },
+            { name: 'Litho Gradient 518', image: '/brand/modulyss/products/litho/variants/litho-gradient-518.webp', swatch: '#9A8776' },
+            { name: 'Litho Gradient 626', image: '/brand/modulyss/products/litho/variants/litho-gradient-626.webp', swatch: '#BFC6CC' },
+            { name: 'Litho Gradient 659', image: '/brand/modulyss/products/litho/variants/litho-gradient-659.webp', swatch: '#7D8488' },
+            { name: 'Litho Gradient 672', image: '/brand/modulyss/products/litho/variants/litho-gradient-672.webp', swatch: '#D6D7D7' },
+            { name: 'Litho Gradient 853', image: '/brand/modulyss/products/litho/variants/litho-gradient-853.webp', swatch: '#5A5A5A' },
+            { name: 'Litho Gradient 901', image: '/brand/modulyss/products/litho/variants/litho-gradient-901.webp', swatch: '#2F3131' },
+            { name: 'Litho Gradient 904', image: '/brand/modulyss/products/litho/variants/litho-gradient-904.webp', swatch: '#3E4143' },
+            { name: 'Litho Gradient 911', image: '/brand/modulyss/products/litho/variants/litho-gradient-911.webp', swatch: '#1E2022' },
+            { name: 'Litho Gradient 932', image: '/brand/modulyss/products/litho/variants/litho-gradient-932.webp', swatch: '#111111' },
+            { name: 'Litho Gradient 983', image: '/brand/modulyss/products/litho/variants/litho-gradient-983.webp', swatch: '#8E867F' }
+        ],
+        roomshots: [
+            '/brand/modulyss/products/litho/roomshots/room-1.webp',
+            '/brand/modulyss/products/litho/roomshots/room-2.webp',
+            '/brand/modulyss/products/litho/roomshots/room-3.webp',
+            '/brand/modulyss/products/litho/roomshots/room-4.webp',
+            '/brand/modulyss/products/litho/roomshots/room-5.webp',
+            '/brand/modulyss/products/litho/roomshots/room-6.webp'
+        ]
+    }
+];

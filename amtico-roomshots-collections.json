@@ -1,0 +1,10 @@
+[
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/signature/roomshots", "slug": "amtico-signature", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/spacia/roomshots", "slug": "amtico-spacia", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/form/roomshots", "slug": "amtico-form", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/decor/roomshots", "slug": "amtico-decor", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/access/roomshots", "slug": "amtico-access", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/clicksmart/roomshots", "slug": "amtico-click-smart", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/marine/roomshots", "slug": "amtico-marine", "count": 6 },
+  { "folder": "/Users/deepaksinghsengar/Documents/OfficeSolutions/os-vue-new/public/brand/amtico/products/first/roomshots", "slug": "amtico-first", "count": 6 }
+]

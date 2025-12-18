@@ -1,0 +1,56 @@
+export default [
+    {
+        id: 15,
+        brand: 'Modulyss',
+        title: 'First Forward',
+        slug: 'first-forward',
+        productDescription:
+            'First Forward sets the tone with a timeless, confident look, offered in a broad spectrum of shades from classy neutrals to bolder statements. Selected colours can also work as base tiles for customisation, letting you add graphics, visuals or gradients to express your brand identity through the space.',
+        applications: ['Common & high traffic areas', 'Sports'],
+        materials: ['Carpet'],
+        patterns: ['Linear'],
+        shades: ['Bright'],
+        features: ['Durable', 'Lifetime Warranty'],
+        price: '$$$',
+        env: ['GreenTag'],
+        shapes: ['Squares'],
+        image: '/brand/modulyss/products/firstforward.webp',
+        variants: [
+            { name: 'First Forward 061', image: '/brand/modulyss/products/firstforward/variants/firstforward-061.webp', swatch: '#BFC6CC' },
+            { name: 'First Forward 140', image: '/brand/modulyss/products/firstforward/variants/firstforward-140.webp', swatch: '#9A8776' },
+            { name: 'First Forward 149', image: '/brand/modulyss/products/firstforward/variants/firstforward-149.webp', swatch: '#C9B6A6' },
+            { name: 'First Forward 210', image: '/brand/modulyss/products/firstforward/variants/firstforward-210.webp', swatch: '#8FA0AE' },
+            { name: 'First Forward 283', image: '/brand/modulyss/products/firstforward/variants/firstforward-283.webp', swatch: '#B78A64' },
+            { name: 'First Forward 322', image: '/brand/modulyss/products/firstforward/variants/firstforward-322.webp', swatch: '#5C6D7A' },
+            { name: 'First Forward 329', image: '/brand/modulyss/products/firstforward/variants/firstforward-329.webp', swatch: '#2D3A4B' },
+            { name: 'First Forward 353', image: '/brand/modulyss/products/firstforward/variants/firstforward-353.webp', swatch: '#8B3A3A' },
+            { name: 'First Forward 504', image: '/brand/modulyss/products/firstforward/variants/firstforward-504.webp', swatch: '#C06E4E' },
+            { name: 'First Forward 543', image: '/brand/modulyss/products/firstforward/variants/firstforward-543.webp', swatch: '#2F4F3E' },
+            { name: 'First Forward 553', image: '/brand/modulyss/products/firstforward/variants/firstforward-553.webp', swatch: '#4A6A5B' },
+            { name: 'First Forward 573', image: '/brand/modulyss/products/firstforward/variants/firstforward-573.webp', swatch: '#3E5A49' },
+            { name: 'First Forward 608', image: '/brand/modulyss/products/firstforward/variants/firstforward-608.webp', swatch: '#7D8488' },
+            { name: 'First Forward 625', image: '/brand/modulyss/products/firstforward/variants/firstforward-625.webp', swatch: '#6E7B86' },
+            { name: 'First Forward 668', image: '/brand/modulyss/products/firstforward/variants/firstforward-668.webp', swatch: '#9AA3A8' },
+            { name: 'First Forward 804', image: '/brand/modulyss/products/firstforward/variants/firstforward-804.webp', swatch: '#D2D4D3' },
+            { name: 'First Forward 810', image: '/brand/modulyss/products/firstforward/variants/firstforward-810.webp', swatch: '#CFC8C1' },
+            { name: 'First Forward 817', image: '/brand/modulyss/products/firstforward/variants/firstforward-817.webp', swatch: '#BDB3A7' },
+            { name: 'First Forward 820', image: '/brand/modulyss/products/firstforward/variants/firstforward-820.webp', swatch: '#AFA59A' },
+            { name: 'First Forward 826', image: '/brand/modulyss/products/firstforward/variants/firstforward-826.webp', swatch: '#8E867F' },
+            { name: 'First Forward 907', image: '/brand/modulyss/products/firstforward/variants/firstforward-907.webp', swatch: '#5A5A5A' },
+            { name: 'First Forward 957', image: '/brand/modulyss/products/firstforward/variants/firstforward-957.webp', swatch: '#D6D7D7' },
+            { name: 'First Forward 961', image: '/brand/modulyss/products/firstforward/variants/firstforward-961.webp', swatch: '#A9ADB0' },
+            { name: 'First Forward 983', image: '/brand/modulyss/products/firstforward/variants/firstforward-983.webp', swatch: '#2F3131' },
+            { name: 'First Forward 989', image: '/brand/modulyss/products/firstforward/variants/firstforward-989.webp', swatch: '#3E4143' },
+            { name: 'First Forward 990', image: '/brand/modulyss/products/firstforward/variants/firstforward-990.webp', swatch: '#1E2022' },
+            { name: 'First Forward 995', image: '/brand/modulyss/products/firstforward/variants/firstforward-995.webp', swatch: '#111111' }
+        ],
+        roomshots: [
+            '/brand/modulyss/products/firstforward/roomshots/room-1.webp',
+            '/brand/modulyss/products/firstforward/roomshots/room-2.webp',
+            '/brand/modulyss/products/firstforward/roomshots/room-3.webp',
+            '/brand/modulyss/products/firstforward/roomshots/room-4.webp',
+            '/brand/modulyss/products/firstforward/roomshots/room-5.webp',
+            '/brand/modulyss/products/firstforward/roomshots/room-6.webp'
+        ]
+    }
+];

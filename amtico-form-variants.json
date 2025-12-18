@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Alta Oak FS7W6050",
+    "code": "FS7W6050",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6050.webp",
+    "swatch": "#C73329"
+  },
+  {
+    "name": "Amber Oak FS7W8550",
+    "code": "FS7W8550",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8550.webp",
+    "swatch": "#9A25D4"
+  },
+  {
+    "name": "Ammonite FS7S4800",
+    "code": "FS7S4800",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4800.webp",
+    "swatch": "#D35594"
+  },
+  {
+    "name": "Bergen Oak FS7W8510",
+    "code": "FS7W8510",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8510.webp",
+    "swatch": "#D9E43A"
+  },
+  {
+    "name": "Boardwalk Oak FS7W8600",
+    "code": "FS7W8600",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8600.webp",
+    "swatch": "#BF2BBA"
+  },
+  {
+    "name": "Brae Oak FS7W6160",
+    "code": "FS7W6160",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6160.webp",
+    "swatch": "#56DF34"
+  },
+  {
+    "name": "Brambly Oak FS7W6180",
+    "code": "FS7W6180",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6180.webp",
+    "swatch": "#3F9ECA"
+  },
+  {
+    "name": "Bureau Oak FS7W5970",
+    "code": "FS7W5970",
+    "image": "/brand/amtico/products/form/variants/form-fs7w5970.webp",
+    "swatch": "#CF4FB9"
+  },
+  {
+    "name": "Burnished Timber FS7W9080",
+    "code": "FS7W9080",
+    "image": "/brand/amtico/products/form/variants/form-fs7w9080.webp",
+    "swatch": "#D69B24"
+  },
+  {
+    "name": "Carved Oak FS7W5960",
+    "code": "FS7W5960",
+    "image": "/brand/amtico/products/form/variants/form-fs7w5960.webp",
+    "swatch": "#1E78D2"
+  },
+  {
+    "name": "Char FS7S4810",
+    "code": "FS7S4810",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4810.webp",
+    "swatch": "#BECD18"
+  },
+  {
+    "name": "Cowrie Oak FS7W8590",
+    "code": "FS7W8590",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8590.webp",
+    "swatch": "#DDAB22"
+  },
+  {
+    "name": "Crema FS7S4370",
+    "code": "FS7S4370",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4370.webp",
+    "swatch": "#4897CB"
+  },
+  {
+    "name": "Dusted Oak FS7W8520",
+    "code": "FS7W8520",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8520.webp",
+    "swatch": "#BC23D7"
+  },
+  {
+    "name": "Esker Oak FS7W6150",
+    "code": "FS7W6150",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6150.webp",
+    "swatch": "#1FC75A"
+  },
+  {
+    "name": "Falun Oak FS7W6060",
+    "code": "FS7W6060",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6060.webp",
+    "swatch": "#8953D5"
+  },
+  {
+    "name": "Fawn Oak FS7W8480",
+    "code": "FS7W8480",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8480.webp",
+    "swatch": "#E13795"
+  },
+  {
+    "name": "Flora Oak FS7W6100",
+    "code": "FS7W6100",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6100.webp",
+    "swatch": "#2FC64D"
+  },
+  {
+    "name": "Foreshore Oak FS7W6120",
+    "code": "FS7W6120",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6120.webp",
+    "swatch": "#BC5F34"
+  },
+  {
+    "name": "Furrowed Oak FS7W6070",
+    "code": "FS7W6070",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6070.webp",
+    "swatch": "#D07D4E"
+  },
+  {
+    "name": "Gotland Oak FS7W8470",
+    "code": "FS7W8470",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8470.webp",
+    "swatch": "#AD31C9"
+  },
+  {
+    "name": "Hanningfield Oak FS7W6190",
+    "code": "FS7W6190",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6190.webp",
+    "swatch": "#2ED671"
+  },
+  {
+    "name": "Keel Oak FS7W6110",
+    "code": "FS7W6110",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6110.webp",
+    "swatch": "#5054D3"
+  },
+  {
+    "name": "Laholm Oak FS7W6230",
+    "code": "FS7W6230",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6230.webp",
+    "swatch": "#30CF87"
+  },
+  {
+    "name": "Langdon Oak FS7W6210",
+    "code": "FS7W6210",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6210.webp",
+    "swatch": "#32CD5E"
+  },
+  {
+    "name": "Larvik Oak FS7W6080",
+    "code": "FS7W6080",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6080.webp",
+    "swatch": "#B82E57"
+  },
+  {
+    "name": "Matlo Oak FS7W6130",
+    "code": "FS7W6130",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6130.webp",
+    "swatch": "#E641A4"
+  },
+  {
+    "name": "Mineral FS7S4350",
+    "code": "FS7S4350",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4350.webp",
+    "swatch": "#C94599"
+  },
+  {
+    "name": "Native Grey Wood FS7W9060",
+    "code": "FS7W9060",
+    "image": "/brand/amtico/products/form/variants/form-fs7w9060.webp",
+    "swatch": "#E22288"
+  },
+  {
+    "name": "Opal FS7S4380",
+    "code": "FS7S4380",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4380.webp",
+    "swatch": "#58D56F"
+  },
+  {
+    "name": "Otta Oak FS7W6140",
+    "code": "FS7W6140",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6140.webp",
+    "swatch": "#C2692E"
+  },
+  {
+    "name": "Rural Oak FS7W5950",
+    "code": "FS7W5950",
+    "image": "/brand/amtico/products/form/variants/form-fs7w5950.webp",
+    "swatch": "#2DBE70"
+  },
+  {
+    "name": "Seaboard Oak FS7W8570",
+    "code": "FS7W8570",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8570.webp",
+    "swatch": "#3EDA82"
+  },
+  {
+    "name": "Shell Oak FS7W8580",
+    "code": "FS7W8580",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8580.webp",
+    "swatch": "#6ED841"
+  },
+  {
+    "name": "Shoal Oak FS7W6170",
+    "code": "FS7W6170",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6170.webp",
+    "swatch": "#54D460"
+  },
+  {
+    "name": "Skara Oak FS7W6090",
+    "code": "FS7W6090",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6090.webp",
+    "swatch": "#B29934"
+  },
+  {
+    "name": "Strand Oak FS7W8620",
+    "code": "FS7W8620",
+    "image": "/brand/amtico/products/form/variants/form-fs7w8620.webp",
+    "swatch": "#D54DA6"
+  },
+  {
+    "name": "Thorndon Oak FS7W6220",
+    "code": "FS7W6220",
+    "image": "/brand/amtico/products/form/variants/form-fs7w6220.webp",
+    "swatch": "#DB4378"
+  },
+  {
+    "name": "Tidal FS7S4340",
+    "code": "FS7S4340",
+    "image": "/brand/amtico/products/form/variants/form-fs7s4340.webp",
+    "swatch": "#D63DBF"
+  },
+  {
+    "name": "Valley Oak FS7W9040",
+    "code": "FS7W9040",
+    "image": "/brand/amtico/products/form/variants/form-fs7w9040.webp",
+    "swatch": "#DFBD43"
+  }
+]

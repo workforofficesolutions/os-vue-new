@@ -1,0 +1,458 @@
+[
+  {
+    "name": "Diffusion Loam AM5ADF04",
+    "code": "AM5ADF04",
+    "image": "/brand/amtico/products/marine/variants/marine-am5adf04.webp",
+    "swatch": "#DDD4C6"
+  },
+  {
+    "name": "Diffusion Chambray AM5ADF39",
+    "code": "AM5ADF39",
+    "image": "/brand/amtico/products/marine/variants/marine-am5adf39.webp",
+    "swatch": "#F7F4EE"
+  },
+  {
+    "name": "Diffusion Aloe AM5ADF88",
+    "code": "AM5ADF88",
+    "image": "/brand/amtico/products/marine/variants/marine-am5adf88.webp",
+    "swatch": "#463126"
+  },
+  {
+    "name": "Stucco Quartz AM5AUC15",
+    "code": "AM5AUC15",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc15.webp",
+    "swatch": "#9E9C97"
+  },
+  {
+    "name": "Stucco Putty AM5AUC30",
+    "code": "AM5AUC30",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc30.webp",
+    "swatch": "#64402D"
+  },
+  {
+    "name": "Stucco Flax AM5AUC39",
+    "code": "AM5AUC39",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc39.webp",
+    "swatch": "#7C7A75"
+  },
+  {
+    "name": "Stucco Haze AM5AUC40",
+    "code": "AM5AUC40",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc40.webp",
+    "swatch": "#8A6046"
+  },
+  {
+    "name": "Stucco Clay AM5AUC47",
+    "code": "AM5AUC47",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc47.webp",
+    "swatch": "#3F2E25"
+  },
+  {
+    "name": "Stucco Roselle AM5AUC51",
+    "code": "AM5AUC51",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc51.webp",
+    "swatch": "#9F876B"
+  },
+  {
+    "name": "Stucco Opaline AM5AUC88",
+    "code": "AM5AUC88",
+    "image": "/brand/amtico/products/marine/variants/marine-am5auc88.webp",
+    "swatch": "#B4A189"
+  },
+  {
+    "name": "Gibson AM5S2603",
+    "code": "AM5S2603",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s2603.webp",
+    "swatch": "#F2EFE7"
+  },
+  {
+    "name": "Amalfi AM5S2609",
+    "code": "AM5S2609",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s2609.webp",
+    "swatch": "#BFAF99"
+  },
+  {
+    "name": "Como AM5S2613",
+    "code": "AM5S2613",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s2613.webp",
+    "swatch": "#7A6F86"
+  },
+  {
+    "name": "Vesper AM5S2616",
+    "code": "AM5S2616",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s2616.webp",
+    "swatch": "#F2EFE7"
+  },
+  {
+    "name": "Fontana Marble Black AM5S4573",
+    "code": "AM5S4573",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s4573.webp",
+    "swatch": "#3F2E25"
+  },
+  {
+    "name": "Fontana Marble White AM5S4574",
+    "code": "AM5S4574",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s4574.webp",
+    "swatch": "#3A3430"
+  },
+  {
+    "name": "Fontana Marble Blue AM5S4575",
+    "code": "AM5S4575",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s4575.webp",
+    "swatch": "#4B4A46"
+  },
+  {
+    "name": "Fontana Marble Green AM5S4576",
+    "code": "AM5S4576",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s4576.webp",
+    "swatch": "#5A5A56"
+  },
+  {
+    "name": "Ammonite AM5S4800",
+    "code": "AM5S4800",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s4800.webp",
+    "swatch": "#7B8A86"
+  },
+  {
+    "name": "Castello Stone AM5S6118",
+    "code": "AM5S6118",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s6118.webp",
+    "swatch": "#3A3430"
+  },
+  {
+    "name": "Mantle Stone AM5S6122",
+    "code": "AM5S6122",
+    "image": "/brand/amtico/products/marine/variants/marine-am5s6122.webp",
+    "swatch": "#946F55"
+  },
+  {
+    "name": "Berkswell Stone AM5SMA32",
+    "code": "AM5SMA32",
+    "image": "/brand/amtico/products/marine/variants/marine-am5sma32.webp",
+    "swatch": "#BFAF99"
+  },
+  {
+    "name": "Whitley Stone AM5SMA36",
+    "code": "AM5SMA36",
+    "image": "/brand/amtico/products/marine/variants/marine-am5sma36.webp",
+    "swatch": "#946F55"
+  },
+  {
+    "name": "Deptford Concrete AM5SRE29",
+    "code": "AM5SRE29",
+    "image": "/brand/amtico/products/marine/variants/marine-am5sre29.webp",
+    "swatch": "#3A3430"
+  },
+  {
+    "name": "Woolwich Concrete AM5SRE31",
+    "code": "AM5SRE31",
+    "image": "/brand/amtico/products/marine/variants/marine-am5sre31.webp",
+    "swatch": "#A9957B"
+  },
+  {
+    "name": "Chatham Concrete AM5SRE33",
+    "code": "AM5SRE33",
+    "image": "/brand/amtico/products/marine/variants/marine-am5sre33.webp",
+    "swatch": "#946F55"
+  },
+  {
+    "name": "Honey Oak AM5W2504",
+    "code": "AM5W2504",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2504.webp",
+    "swatch": "#946F55"
+  },
+  {
+    "name": "Traditional Oak AM5W2514",
+    "code": "AM5W2514",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2514.webp",
+    "swatch": "#B4A189"
+  },
+  {
+    "name": "Pale Ash AM5W2518",
+    "code": "AM5W2518",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2518.webp",
+    "swatch": "#8A6046"
+  },
+  {
+    "name": "Royal Oak AM5W2530",
+    "code": "AM5W2530",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2530.webp",
+    "swatch": "#7A6F86"
+  },
+  {
+    "name": "Featured Oak AM5W2533",
+    "code": "AM5W2533",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2533.webp",
+    "swatch": "#F2EFE7"
+  },
+  {
+    "name": "Black Walnut AM5W2534",
+    "code": "AM5W2534",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2534.webp",
+    "swatch": "#ECE6DC"
+  },
+  {
+    "name": "White Ash AM5W2540",
+    "code": "AM5W2540",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2540.webp",
+    "swatch": "#D6D4CF"
+  },
+  {
+    "name": "Exotic Walnut AM5W2541",
+    "code": "AM5W2541",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2541.webp",
+    "swatch": "#7B8A86"
+  },
+  {
+    "name": "Dusky Walnut AM5W2542",
+    "code": "AM5W2542",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2542.webp",
+    "swatch": "#6F7C86"
+  },
+  {
+    "name": "Nordic Oak AM5W2550",
+    "code": "AM5W2550",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w2550.webp",
+    "swatch": "#9E9C97"
+  },
+  {
+    "name": "Rural Oak AM5W5950",
+    "code": "AM5W5950",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w5950.webp",
+    "swatch": "#64402D"
+  },
+  {
+    "name": "Alta Oak AM5W6050",
+    "code": "AM5W6050",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6050.webp",
+    "swatch": "#A9957B"
+  },
+  {
+    "name": "Falun Oak AM5W6060",
+    "code": "AM5W6060",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6060.webp",
+    "swatch": "#C9BDAA"
+  },
+  {
+    "name": "Furrowed Oak AM5W6070",
+    "code": "AM5W6070",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6070.webp",
+    "swatch": "#E5DED2"
+  },
+  {
+    "name": "Flora Oak AM5W6100",
+    "code": "AM5W6100",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6100.webp",
+    "swatch": "#8A7B6F"
+  },
+  {
+    "name": "Keel Oak AM5W6110",
+    "code": "AM5W6110",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6110.webp",
+    "swatch": "#7B8A86"
+  },
+  {
+    "name": "Foreshore Oak AM5W6120",
+    "code": "AM5W6120",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6120.webp",
+    "swatch": "#B0AEA9"
+  },
+  {
+    "name": "Voyager Teak AM5W6128",
+    "code": "AM5W6128",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6128.webp",
+    "swatch": "#F2EFE7"
+  },
+  {
+    "name": "Black Timber AM5W6129",
+    "code": "AM5W6129",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6129.webp",
+    "swatch": "#ECE6DC"
+  },
+  {
+    "name": "Matlo Oak AM5W6130",
+    "code": "AM5W6130",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6130.webp",
+    "swatch": "#7C7A75"
+  },
+  {
+    "name": "Laholm Oak AM5W6230",
+    "code": "AM5W6230",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w6230.webp",
+    "swatch": "#8A7B6F"
+  },
+  {
+    "name": "Manor Oak AM5W7970",
+    "code": "AM5W7970",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w7970.webp",
+    "swatch": "#6B6A66"
+  },
+  {
+    "name": "Solar Pine AM5W8240",
+    "code": "AM5W8240",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8240.webp",
+    "swatch": "#9F876B"
+  },
+  {
+    "name": "Seaboard Oak​ AM5W8570",
+    "code": "AM5W8570",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8570.webp",
+    "swatch": "#C2C0BB"
+  },
+  {
+    "name": "Henley Oak AM5W8740",
+    "code": "AM5W8740",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8740.webp",
+    "swatch": "#4B4A46"
+  },
+  {
+    "name": "Friston Oak AM5W8750",
+    "code": "AM5W8750",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8750.webp",
+    "swatch": "#463126"
+  },
+  {
+    "name": "Tollymore Oak AM5W8760",
+    "code": "AM5W8760",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8760.webp",
+    "swatch": "#64402D"
+  },
+  {
+    "name": "Kirby Oak AM5W8780",
+    "code": "AM5W8780",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8780.webp",
+    "swatch": "#A9957B"
+  },
+  {
+    "name": "Trevellas Oak AM5W8890",
+    "code": "AM5W8890",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8890.webp",
+    "swatch": "#64402D"
+  },
+  {
+    "name": "Tay Oak AM5W8900",
+    "code": "AM5W8900",
+    "image": "/brand/amtico/products/marine/variants/marine-am5w8900.webp",
+    "swatch": "#4E3427"
+  },
+  {
+    "name": "Echo Sky MP029",
+    "code": "MP029",
+    "image": "/brand/amtico/products/marine/variants/marine-mp029.webp",
+    "swatch": "#7B8A86"
+  },
+  {
+    "name": "Temple Diamond Atlantic MP030",
+    "code": "MP030",
+    "image": "/brand/amtico/products/marine/variants/marine-mp030.webp",
+    "swatch": "#463126"
+  },
+  {
+    "name": "Temple Diamond Pacific MP031",
+    "code": "MP031",
+    "image": "/brand/amtico/products/marine/variants/marine-mp031.webp",
+    "swatch": "#3F2E25"
+  },
+  {
+    "name": "Venetian Parquet Fusina MP032",
+    "code": "MP032",
+    "image": "/brand/amtico/products/marine/variants/marine-mp032.webp",
+    "swatch": "#3A3430"
+  },
+  {
+    "name": "Venetian Parquet Trieste MP033",
+    "code": "MP033",
+    "image": "/brand/amtico/products/marine/variants/marine-mp033.webp",
+    "swatch": "#4B4A46"
+  },
+  {
+    "name": "Venetian Parquet Murano MP034",
+    "code": "MP034",
+    "image": "/brand/amtico/products/marine/variants/marine-mp034.webp",
+    "swatch": "#5A5A56"
+  },
+  {
+    "name": "Venetian Parquet Torcello MP035",
+    "code": "MP035",
+    "image": "/brand/amtico/products/marine/variants/marine-mp035.webp",
+    "swatch": "#6B6A66"
+  },
+  {
+    "name": "Victorian Star Small Vega MP036",
+    "code": "MP036",
+    "image": "/brand/amtico/products/marine/variants/marine-mp036.webp",
+    "swatch": "#7C7A75"
+  },
+  {
+    "name": "Victorian Star Small Capella MP037",
+    "code": "MP037",
+    "image": "/brand/amtico/products/marine/variants/marine-mp037.webp",
+    "swatch": "#8D8B86"
+  },
+  {
+    "name": "Victorian Star Small Sirius MP038",
+    "code": "MP038",
+    "image": "/brand/amtico/products/marine/variants/marine-mp038.webp",
+    "swatch": "#9E9C97"
+  },
+  {
+    "name": "Victorian Star Large Navigator MP039",
+    "code": "MP039",
+    "image": "/brand/amtico/products/marine/variants/marine-mp039.webp",
+    "swatch": "#B0AEA9"
+  },
+  {
+    "name": "Victorian Star Large Horizon MP040",
+    "code": "MP040",
+    "image": "/brand/amtico/products/marine/variants/marine-mp040.webp",
+    "swatch": "#64402D"
+  },
+  {
+    "name": "Akari Lattice Small Port MP041",
+    "code": "MP041",
+    "image": "/brand/amtico/products/marine/variants/marine-mp041.webp",
+    "swatch": "#583A29"
+  },
+  {
+    "name": "Akari Lattice Small Starboard MP042",
+    "code": "MP042",
+    "image": "/brand/amtico/products/marine/variants/marine-mp042.webp",
+    "swatch": "#4E3427"
+  },
+  {
+    "name": "Akari Lattice Large Bow MP043",
+    "code": "MP043",
+    "image": "/brand/amtico/products/marine/variants/marine-mp043.webp",
+    "swatch": "#463126"
+  },
+  {
+    "name": "Akari Lattice Large Anchor MP044",
+    "code": "MP044",
+    "image": "/brand/amtico/products/marine/variants/marine-mp044.webp",
+    "swatch": "#3F2E25"
+  },
+  {
+    "name": "Chequer Lagoon MP045",
+    "code": "MP045",
+    "image": "/brand/amtico/products/marine/variants/marine-mp045.webp",
+    "swatch": "#3A3430"
+  },
+  {
+    "name": "Chequer Glacier MP046",
+    "code": "MP046",
+    "image": "/brand/amtico/products/marine/variants/marine-mp046.webp",
+    "swatch": "#4B4A46"
+  },
+  {
+    "name": "Corinthian Coast MP047",
+    "code": "MP047",
+    "image": "/brand/amtico/products/marine/variants/marine-mp047.webp",
+    "swatch": "#5A5A56"
+  },
+  {
+    "name": "Echo Wave MP048",
+    "code": "MP048",
+    "image": "/brand/amtico/products/marine/variants/marine-mp048.webp",
+    "swatch": "#6B6A66"
+  }
+]

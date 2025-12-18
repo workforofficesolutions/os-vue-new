@@ -1,0 +1,670 @@
+[
+  {
+    "name": "Aged Oak AR0W7710",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7710.webp"
+  },
+  {
+    "name": "Alpine Oak AR0W8330",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8330.webp"
+  },
+  {
+    "name": "American Oak AR0W7050",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7050.webp"
+  },
+  {
+    "name": "Antique Wood AR0W7190",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7190.webp"
+  },
+  {
+    "name": "Ashdown Oak AR0W8680",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8680.webp"
+  },
+  {
+    "name": "Aspen Oak AR0W8310",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8310.webp"
+  },
+  {
+    "name": "Basilica Salt AR0SBS12",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sbs12.webp"
+  },
+  {
+    "name": "Basilica Shell AR0SBS41",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sbs41.webp"
+  },
+  {
+    "name": "Berkswell Stone AR0SMA32",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sma32.webp"
+  },
+  {
+    "name": "Berwick Oak AR0W8850",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8850.webp"
+  },
+  {
+    "name": "Bianca Classic Marble AR0SOM10",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0som10.webp"
+  },
+  {
+    "name": "Black Burnished Metal AR0ARH29",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0arh29.webp"
+  },
+  {
+    "name": "Blockley Stone AR0SMA31",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sma31.webp"
+  },
+  {
+    "name": "Blonde Oak AR0W7460",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7460.webp"
+  },
+  {
+    "name": "Bordeaux Oak AR0W8450",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8450.webp"
+  },
+  {
+    "name": "Brushed Oak AR0W7910",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7910.webp"
+  },
+  {
+    "name": "Buckingham Oak AR0W8880",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8880.webp"
+  },
+  {
+    "name": "Buxton Oak AR0W8660",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8660.webp"
+  },
+  {
+    "name": "Chargot Oak AR0W8720",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8720.webp"
+  },
+  {
+    "name": "Chateau Oak AR0W7980",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7980.webp"
+  },
+  {
+    "name": "Chatham Concrete AR0SRE33",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sre33.webp"
+  },
+  {
+    "name": "Chiltern Oak AR0W8630",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8630.webp"
+  },
+  {
+    "name": "Classic Oak AR0W7430",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7430.webp"
+  },
+  {
+    "name": "Classic Walnut AR0W7610",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7610.webp"
+  },
+  {
+    "name": "Clowes Oak AR0W8650",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8650.webp"
+  },
+  {
+    "name": "Coombe Stone AR0STE49",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste49.webp"
+  },
+  {
+    "name": "Cornish Oak AR0W8150",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8150.webp"
+  },
+  {
+    "name": "Crema Marfil AR0SMF47",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0smf47.webp"
+  },
+  {
+    "name": "Cumbrian Slate AR0SSL32",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssl32.webp"
+  },
+  {
+    "name": "Dark Walnut AR0W7700",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7700.webp"
+  },
+  {
+    "name": "Darley Oak AR0W8710",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8710.webp"
+  },
+  {
+    "name": "Deptford Concrete AR0SRE29",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sre29.webp"
+  },
+  {
+    "name": "Diffusion Aloe AR0ADF88",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf88.webp"
+  },
+  {
+    "name": "Diffusion Cashew AR0ADF41",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf41.webp"
+  },
+  {
+    "name": "Diffusion Chambray AR0ADF39",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf39.webp"
+  },
+  {
+    "name": "Diffusion Eve AR0ADF54",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf54.webp"
+  },
+  {
+    "name": "Diffusion Husk AR0ADF27",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf27.webp"
+  },
+  {
+    "name": "Diffusion Loam AR0ADF04",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf04.webp"
+  },
+  {
+    "name": "Diffusion Lux AR0ADF38",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf38.webp"
+  },
+  {
+    "name": "Diffusion Malt AR0ADF44",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0adf44.webp"
+  },
+  {
+    "name": "Dockland Oak AR0W8350",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8350.webp"
+  },
+  {
+    "name": "Dry Teak AR0W7810",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7810.webp"
+  },
+  {
+    "name": "Dublin AR0ACF83",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf83.webp"
+  },
+  {
+    "name": "Encaustic Jasper AR0AEN45",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0aen45.webp"
+  },
+  {
+    "name": "Encaustic Kyanite AR0AEN83",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0aen83.webp"
+  },
+  {
+    "name": "Encaustic Okra AR0AEN18",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0aen18.webp"
+  },
+  {
+    "name": "Encaustic Storm AR0AEN98",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0aen98.webp"
+  },
+  {
+    "name": "Exposed Concrete AR0SEC30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sec30.webp"
+  },
+  {
+    "name": "Farmhouse Oak AR0W7630",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7630.webp"
+  },
+  {
+    "name": "French Oak AR0W7830",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7830.webp"
+  },
+  {
+    "name": "Fresh Oak AR0W7440",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7440.webp"
+  },
+  {
+    "name": "Friston Oak AR0W8750",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8750.webp"
+  },
+  {
+    "name": "Fumed Oak AR0W7900",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7900.webp"
+  },
+  {
+    "name": "Fused Birch AR0W7500",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7500.webp"
+  },
+  {
+    "name": "Glint Orb AR0AGG11",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0agg11.webp"
+  },
+  {
+    "name": "Glint Void AR0AGG22",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0agg22.webp"
+  },
+  {
+    "name": "Golden Oak AR0W7510",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7510.webp"
+  },
+  {
+    "name": "Graphite Slate AR0SSL23",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssl23.webp"
+  },
+  {
+    "name": "Grey Burnished Metal AR0ARH13",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0arh13.webp"
+  },
+  {
+    "name": "Grigio Classic Marble AR0SCA37",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sca37.webp"
+  },
+  {
+    "name": "Grizedale Oak AR0W8830",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8830.webp"
+  },
+  {
+    "name": "Hackfall Oak AR0W8790",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8790.webp"
+  },
+  {
+    "name": "Halo Pine AR0W8250",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8250.webp"
+  },
+  {
+    "name": "Hamsterley Oak AR0W8770",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8770.webp"
+  },
+  {
+    "name": "Harbour Pine AR0W7990",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7990.webp"
+  },
+  {
+    "name": "Helsinki AR0ACF90",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf90.webp"
+  },
+  {
+    "name": "Henley Oak AR0W8740",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8740.webp"
+  },
+  {
+    "name": "Honed Limestone Natural AR0SLH11",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0slh11.webp"
+  },
+  {
+    "name": "Ilmington Stone AR0SSC01",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssc01.webp"
+  },
+  {
+    "name": "Kentmere Slate AR0SSL37",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssl37.webp"
+  },
+  {
+    "name": "Kirby Oak AR0W8780",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8780.webp"
+  },
+  {
+    "name": "Kura Anise AR0SKU39",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sku39.webp"
+  },
+  {
+    "name": "Kura Caraway AR0SKU38",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sku38.webp"
+  },
+  {
+    "name": "Kura Kala AR0SKU31",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sku31.webp"
+  },
+  {
+    "name": "Kura Opium AR0SKU49",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sku49.webp"
+  },
+  {
+    "name": "Laughton Oak AR0W8810",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8810.webp"
+  },
+  {
+    "name": "Light Cherry AR0W7060",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7060.webp"
+  },
+  {
+    "name": "Lime Washed Wood AR0W7660",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7660.webp"
+  },
+  {
+    "name": "Lock Oak AR0W8360",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8360.webp"
+  },
+  {
+    "name": "Malvern Oak AR0W8670",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8670.webp"
+  },
+  {
+    "name": "Manor Oak AR0W7970",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7970.webp"
+  },
+  {
+    "name": "Marlow Oak AR0W8690",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8690.webp"
+  },
+  {
+    "name": "Marrakech AR0ACF51",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf51.webp"
+  },
+  {
+    "name": "Merbau AR0W7590",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7590.webp"
+  },
+  {
+    "name": "Mirabelle Creme AR0SMB14",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0smb14.webp"
+  },
+  {
+    "name": "Modernist Frame AR0AMN30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0amn30.webp"
+  },
+  {
+    "name": "Modernist Spire AR0AMN38",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0amn38.webp"
+  },
+  {
+    "name": "Modernist Vault AR0AMN13",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0amn13.webp"
+  },
+  {
+    "name": "Napoli AR0ACF75",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf75.webp"
+  },
+  {
+    "name": "Natural Limed Wood AR0W7690",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7690.webp"
+  },
+  {
+    "name": "Nero Classic Marble AR0SCA20",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sca20.webp"
+  },
+  {
+    "name": "Nomad Oak AR0W8140",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8140.webp"
+  },
+  {
+    "name": "Onyx Marble AR0SOM30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0som30.webp"
+  },
+  {
+    "name": "Packwood Stone AR0SSC12",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssc12.webp"
+  },
+  {
+    "name": "Paris AR0ACF92",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf92.webp"
+  },
+  {
+    "name": "Parisian Pine AR0W7860",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7860.webp"
+  },
+  {
+    "name": "Pearl Wash Wood AR0W8220",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8220.webp"
+  },
+  {
+    "name": "Priory Oak AR0W7200",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7200.webp"
+  },
+  {
+    "name": "Ratley Stone AR0SMA37",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sma37.webp"
+  },
+  {
+    "name": "Reclaimed Oak AR0W7870",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7870.webp"
+  },
+  {
+    "name": "Regency Walnut AR0W8200",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8200.webp"
+  },
+  {
+    "name": "Rio AR0ACF56",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf56.webp"
+  },
+  {
+    "name": "Riverstone Tundra AR0SRS40",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0srs40.webp"
+  },
+  {
+    "name": "Rosa Classic Marble AR0SCA53",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sca53.webp"
+  },
+  {
+    "name": "Rosewood AR0W7070",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7070.webp"
+  },
+  {
+    "name": "Rotterdam Oak AR0W8440",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8440.webp"
+  },
+  {
+    "name": "Russet Burnished Metal AR0ARH44",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0arh44.webp"
+  },
+  {
+    "name": "Salted Oak AR0W8210",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8210.webp"
+  },
+  {
+    "name": "Sanctuary Grain AR0W8270",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8270.webp"
+  },
+  {
+    "name": "Sevilla AR0ACF64",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0acf64.webp"
+  },
+  {
+    "name": "Shore Oak AR0W8180",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8180.webp"
+  },
+  {
+    "name": "Shottery Limestone AR0SLK15",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0slk15.webp"
+  },
+  {
+    "name": "Sloane Concrete AR0SSC37",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssc37.webp"
+  },
+  {
+    "name": "Solar Pine AR0W8240",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8240.webp"
+  },
+  {
+    "name": "Stria Ash AR0SMS13",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sms13.webp"
+  },
+  {
+    "name": "Stria Basalt AR0SMS43",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sms43.webp"
+  },
+  {
+    "name": "Stria Rock AR0SMS33",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sms33.webp"
+  },
+  {
+    "name": "Stria Sediment AR0SMS14",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sms14.webp"
+  },
+  {
+    "name": "Stria Volcanic AR0SMS42",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sms42.webp"
+  },
+  {
+    "name": "Stucco Clay AR0AUC47",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc47.webp"
+  },
+  {
+    "name": "Stucco Elk AR0AUC32",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc32.webp"
+  },
+  {
+    "name": "Stucco Flax AR0AUC39",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc39.webp"
+  },
+  {
+    "name": "Stucco Haze AR0AUC40",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc40.webp"
+  },
+  {
+    "name": "Stucco Huckleberry AR0AUC92",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc92.webp"
+  },
+  {
+    "name": "Stucco Indigo AR0AUC91",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc91.webp"
+  },
+  {
+    "name": "Stucco Mist AR0AUC93",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc93.webp"
+  },
+  {
+    "name": "Stucco Nutmeg AR0AUC89",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc89.webp"
+  },
+  {
+    "name": "Stucco Opaline AR0AUC88",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc88.webp"
+  },
+  {
+    "name": "Stucco Pebble AR0AUC38",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc38.webp"
+  },
+  {
+    "name": "Stucco Putty AR0AUC30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc30.webp"
+  },
+  {
+    "name": "Stucco Quartz AR0AUC15",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc15.webp"
+  },
+  {
+    "name": "Stucco Roselle AR0AUC51",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0auc51.webp"
+  },
+  {
+    "name": "Tay Oak AR0W8900",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8900.webp"
+  },
+  {
+    "name": "Teak AR0W6990",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w6990.webp"
+  },
+  {
+    "name": "Tempus Echo AR0STE13",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste13.webp"
+  },
+  {
+    "name": "Tempus Embrace AR0STE30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste30.webp"
+  },
+  {
+    "name": "Tempus Harmony AR0STE41",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste41.webp"
+  },
+  {
+    "name": "Tempus Pause AR0STE37",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste37.webp"
+  },
+  {
+    "name": "Tempus Restore AR0STE29",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste29.webp"
+  },
+  {
+    "name": "Tempus Soothe AR0STE31",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ste31.webp"
+  },
+  {
+    "name": "Tollymore Oak AR0W8760",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8760.webp"
+  },
+  {
+    "name": "Tortora Classic Marble AR0SCA44",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sca44.webp"
+  },
+  {
+    "name": "Toulouse Oak AR0W8430",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8430.webp"
+  },
+  {
+    "name": "Trace Kaolin AR0W8390",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8390.webp"
+  },
+  {
+    "name": "Trace Scree AR0W8400",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8400.webp"
+  },
+  {
+    "name": "Trevellas Oak AR0W8890",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8890.webp"
+  },
+  {
+    "name": "Tyne Concrete AR0SRE30",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sre30.webp"
+  },
+  {
+    "name": "Union Oak AR0W8370",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8370.webp"
+  },
+  {
+    "name": "Verbier Oak AR0W8320",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8320.webp"
+  },
+  {
+    "name": "Verde Classic Marble AR0SCA87",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sca87.webp"
+  },
+  {
+    "name": "Verdigris Burnished Metal AR0ARH33",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0arh33.webp"
+  },
+  {
+    "name": "Versailles Oak AR0W8460",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8460.webp"
+  },
+  {
+    "name": "Waterloo Concrete AR0SSC10",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0ssc10.webp"
+  },
+  {
+    "name": "Wharf Oak AR0W8190",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8190.webp"
+  },
+  {
+    "name": "Wharncliffe Oak AR0W8640",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8640.webp"
+  },
+  {
+    "name": "Whinlatter Oak AR0W8730",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8730.webp"
+  },
+  {
+    "name": "White Oak AR0W7520",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7520.webp"
+  },
+  {
+    "name": "White Wash Wood AR0W7680",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7680.webp"
+  },
+  {
+    "name": "Whitley Stone AR0SMA36",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sma36.webp"
+  },
+  {
+    "name": "Wild Walnut AR0W7620",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7620.webp"
+  },
+  {
+    "name": "Wilmcote Limestone AR0SLS44",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sls44.webp"
+  },
+  {
+    "name": "Wilverley Oak AR0W8870",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8870.webp"
+  },
+  {
+    "name": "Woolwich Concrete AR0SRE31",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0sre31.webp"
+  },
+  {
+    "name": "Worn Concrete AR0STL39",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0stl39.webp"
+  },
+  {
+    "name": "Worn Oak AR0W7390",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w7390.webp"
+  },
+  {
+    "name": "Yarncliff Oak AR0W8800",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8800.webp"
+  },
+  {
+    "name": "York Oak AR0W8160",
+    "image": "/brand/amtico/products/signature/variants/signature-ar0w8160.webp"
+  }
+]

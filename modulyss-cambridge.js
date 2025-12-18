@@ -1,0 +1,63 @@
+export default [
+    {
+    id: 2,
+    brand: 'Modulyss',
+    title: 'Cambridge&',
+    slug: 'cambridge&', // URL => /products/artus
+    productDescription:
+      'Cambridge& offers a versatile, loop-pile texture and a refined palette designed to blend creativity with elegance in contemporary interiors.',
+    applications: ['Entrance', 'Common & high traffic areas'],
+    materials: ['Carpet'],
+    patterns: ['Textured'],
+    shades: ['Neutral'],
+    features: ['Durable', 'Recyclable'],
+    price: '$$',
+    env: ['GreenTag'],
+    shapes: ['Squares'],
+    image: '/brand/modulyss/products/cambridge.webp',
+    variants: [
+      { name: 'Cambridge& 181', image: '/brand/modulyss/products/cambridge/variants/cambdridge-181.webp', swatch: '#B78A64' },
+      { name: 'Cambridge& 213', image: '/brand/modulyss/products/cambridge/variants/cambdridge-213.webp', swatch: '#8B3A3A' },
+      { name: 'Cambridge& 224', image: '/brand/modulyss/products/cambridge/variants/cambdridge-224.webp', swatch: '#8FA0AE' },
+      { name: 'Cambridge& 303', image: '/brand/modulyss/products/cambridge/variants/cambdridge-303.webp', swatch: '#5C6D7A' },
+      { name: 'Cambridge& 307', image: '/brand/modulyss/products/cambridge/variants/cambdridge-307.webp', swatch: '#2D3A4B' },
+      { name: 'Cambridge& 314', image: '/brand/modulyss/products/cambridge/variants/cambdridge-314.webp', swatch: '#2F4F3E' },
+      { name: 'Cambridge& 316', image: '/brand/modulyss/products/cambridge/variants/cambdridge-316.webp', swatch: '#9A8776' },
+      { name: 'Cambridge& 322', image: '/brand/modulyss/products/cambridge/variants/cambdridge-322.webp', swatch: '#BFC6CC' },
+      { name: 'Cambridge& 346', image: '/brand/modulyss/products/cambridge/variants/cambdridge-346.webp', swatch: '#7D8488' },
+      { name: 'Cambridge& 386', image: '/brand/modulyss/products/cambridge/variants/cambdridge-386.webp', swatch: '#D2D4D3' },
+      { name: 'Cambridge& 463', image: '/brand/modulyss/products/cambridge/variants/cambdridge-463.webp', swatch: '#5A5A5A' },
+      { name: 'Cambridge& 482', image: '/brand/modulyss/products/cambridge/variants/cambdridge-482.webp', swatch: '#2F3131' },
+      { name: 'Cambridge& 504', image: '/brand/modulyss/products/cambridge/variants/cambdridge-504.webp', swatch: '#B78A64' },
+      { name: 'Cambridge& 506', image: '/brand/modulyss/products/cambridge/variants/cambdridge-506.webp', swatch: '#8B3A3A' },
+      { name: 'Cambridge& 511', image: '/brand/modulyss/products/cambridge/variants/cambdridge-511.webp', swatch: '#8FA0AE' },
+      { name: 'Cambridge& 553', image: '/brand/modulyss/products/cambridge/variants/cambdridge-553.webp', swatch: '#5C6D7A' },
+      { name: 'Cambridge& 569', image: '/brand/modulyss/products/cambridge/variants/cambdridge-569.webp', swatch: '#2D3A4B' },
+      { name: 'Cambridge& 579', image: '/brand/modulyss/products/cambridge/variants/cambdridge-579.webp', swatch: '#2F4F3E' },
+      { name: 'Cambridge& 592', image: '/brand/modulyss/products/cambridge/variants/cambdridge-592.webp', swatch: '#9A8776' },
+      { name: 'Cambridge& 595', image: '/brand/modulyss/products/cambridge/variants/cambdridge-595.webp', swatch: '#BFC6CC' },
+      { name: 'Cambridge& 601', image: '/brand/modulyss/products/cambridge/variants/cambdridge-601.webp', swatch: '#7D8488' },
+      { name: 'Cambridge& 613', image: '/brand/modulyss/products/cambridge/variants/cambdridge-613.webp', swatch: '#D2D4D3' },
+      { name: 'Cambridge& 662', image: '/brand/modulyss/products/cambridge/variants/cambdridge-662.webp', swatch: '#5A5A5A' },
+      { name: 'Cambridge& 684', image: '/brand/modulyss/products/cambridge/variants/cambdridge-684.webp', swatch: '#2F3131' },
+      { name: 'Cambridge& 817', image: '/brand/modulyss/products/cambridge/variants/cambdridge-817.webp', swatch: '#B78A64' },
+      { name: 'Cambridge& 822', image: '/brand/modulyss/products/cambridge/variants/cambdridge-822.webp', swatch: '#8B3A3A' },
+      { name: 'Cambridge& 823', image: '/brand/modulyss/products/cambridge/variants/cambdridge-823.webp', swatch: '#8FA0AE' },
+      { name: 'Cambridge& 830', image: '/brand/modulyss/products/cambridge/variants/cambdridge-830.webp', swatch: '#5C6D7A' },
+      { name: 'Cambridge& 907', image: '/brand/modulyss/products/cambridge/variants/cambdridge-907.webp', swatch: '#2D3A4B' },
+      { name: 'Cambridge& 915', image: '/brand/modulyss/products/cambridge/variants/cambdridge-915.webp', swatch: '#2F4F3E' },
+      { name: 'Cambridge& 963', image: '/brand/modulyss/products/cambridge/variants/cambdridge-963.webp', swatch: '#9A8776' },
+      { name: 'Cambridge& 965', image: '/brand/modulyss/products/cambridge/variants/cambdridge-965.webp', swatch: '#BFC6CC' },
+      { name: 'Cambridge& 991', image: '/brand/modulyss/products/cambridge/variants/cambdridge-991.webp', swatch: '#7D8488' },
+      { name: 'Cambridge& 994', image: '/brand/modulyss/products/cambridge/variants/cambdridge-994.webp', swatch: '#D2D4D3' }
+    ],
+    roomshots: [
+      '/brand/modulyss/products/cambridge/roomshots/room-1.webp',
+      '/brand/modulyss/products/cambridge/roomshots/room-2.webp',
+      '/brand/modulyss/products/cambridge/roomshots/room-3.webp',
+      '/brand/modulyss/products/cambridge/roomshots/room-4.webp',
+      '/brand/modulyss/products/cambridge/roomshots/room-5.webp',
+      '/brand/modulyss/products/cambridge/roomshots/room-3.webp'
+    ]
+  }
+];

@@ -11,23 +11,23 @@ const AUTOPLAY_DELAY = 5000
 
 const slides = [
   {
-    video: '/hero/slide1.mp4',
+    video: '/hero/hero1.mp4',
     badgeText: '',
-    headline: 'Moving Flooring Forward',
     title: '',
     subtitle: '',
     link: { text: '', url: '' }
   },
   {
-    image: '/hero/slide2.jpg',
+    video: '/hero/hero2.mp4',
     badgeText: 'Featured',
+    headline: 'Moving Flooring Forward',
     title: 'Project Three',
     subtitle: '—',
     link: { text: 'View case study', url: '#' }
   },
   {
-    image: '/hero/slide3.jpg',
-    headline: 'Introducing Kinetex®',
+    video: '/hero/hero3.mp4',
+    headline: 'Elevate Every Space',
     subtitle: 'New product range by J+J',
     description:
       'Crafted from recycled PET and fully recyclable in Aotearoa, Kinetex® carpet blends the softness of textiles with exceptional durability.',
@@ -35,7 +35,8 @@ const slides = [
 
   },
   {
-    video: '/hero/slide4.mp4',
+    video: '/hero/hero4.mp4',
+    headline: 'Build For Better',
     title: 'Project Four',
     subtitle: '—',
     link: { text: 'View case study', url: '#' }

@@ -1,0 +1,56 @@
+export default [
+    {
+        id: 21,
+        brand: 'Modulyss',
+        title: 'Gleam',
+        slug: 'gleam',
+        productDescription:
+            '**Gleam exudes luxury and comfort through its rich and shiny feel.** Perfectly suited for hospitality spaces and luxury office areas, this carpet tile blends dull and glossy yarns to create a chic and mysterious mood, while being extraordinarily soft to the touch.',
+        applications: ['Entrance', 'Service areas'],
+        materials: ['Carpet'],
+        patterns: ['Solid'],
+        shades: ['Light'],
+        features: ['Quick Ship', 'Green Certificate'],
+        price: '$$',
+        env: ['GreenTag'],
+        shapes: ['Squares'],
+        image: '/brand/modulyss/products/gleam.webp',
+        variants: [
+            { name: 'Gleam 020', image: '/brand/modulyss/products/gleam/variants/gleam-020.webp', swatch: '#D2D4D3' },
+            { name: 'Gleam 033', image: '/brand/modulyss/products/gleam/variants/gleam-033.webp', swatch: '#CFC8C1' },
+            { name: 'Gleam 212', image: '/brand/modulyss/products/gleam/variants/gleam-212.webp', swatch: '#8FA0AE' },
+            { name: 'Gleam 306', image: '/brand/modulyss/products/gleam/variants/gleam-306.webp', swatch: '#5C6D7A' },
+            { name: 'Gleam 314', image: '/brand/modulyss/products/gleam/variants/gleam-314.webp', swatch: '#6E7B86' },
+            { name: 'Gleam 346', image: '/brand/modulyss/products/gleam/variants/gleam-346.webp', swatch: '#8B3A3A' },
+            { name: 'Gleam 398', image: '/brand/modulyss/products/gleam/variants/gleam-398.webp', swatch: '#2D3A4B' },
+            { name: 'Gleam 462', image: '/brand/modulyss/products/gleam/variants/gleam-462.webp', swatch: '#C06E4E' },
+            { name: 'Gleam 482', image: '/brand/modulyss/products/gleam/variants/gleam-482.webp', swatch: '#B78A64' },
+            { name: 'Gleam 511', image: '/brand/modulyss/products/gleam/variants/gleam-511.webp', swatch: '#4A6A5B' },
+            { name: 'Gleam 530', image: '/brand/modulyss/products/gleam/variants/gleam-530.webp', swatch: '#3E5A49' },
+            { name: 'Gleam 535', image: '/brand/modulyss/products/gleam/variants/gleam-535.webp', swatch: '#2F4F3E' },
+            { name: 'Gleam 569', image: '/brand/modulyss/products/gleam/variants/gleam-569.webp', swatch: '#2F4F3E' },
+            { name: 'Gleam 579', image: '/brand/modulyss/products/gleam/variants/gleam-579.webp', swatch: '#7D8488' },
+            { name: 'Gleam 581', image: '/brand/modulyss/products/gleam/variants/gleam-581.webp', swatch: '#9AA3A8' },
+            { name: 'Gleam 606', image: '/brand/modulyss/products/gleam/variants/gleam-606.webp', swatch: '#7D8488' },
+            { name: 'Gleam 609', image: '/brand/modulyss/products/gleam/variants/gleam-609.webp', swatch: '#A9ADB0' },
+            { name: 'Gleam 615', image: '/brand/modulyss/products/gleam/variants/gleam-615.webp', swatch: '#BFC6CC' },
+            { name: 'Gleam 826', image: '/brand/modulyss/products/gleam/variants/gleam-826.webp', swatch: '#AFA59A' },
+            { name: 'Gleam 847', image: '/brand/modulyss/products/gleam/variants/gleam-847.webp', swatch: '#BDB3A7' },
+            { name: 'Gleam 866', image: '/brand/modulyss/products/gleam/variants/gleam-866.webp', swatch: '#9A8776' },
+            { name: 'Gleam 894', image: '/brand/modulyss/products/gleam/variants/gleam-894.webp', swatch: '#8E867F' },
+            { name: 'Gleam 907', image: '/brand/modulyss/products/gleam/variants/gleam-907.webp', swatch: '#5A5A5A' },
+            { name: 'Gleam 966', image: '/brand/modulyss/products/gleam/variants/gleam-966.webp', swatch: '#D6D7D7' },
+            { name: 'Gleam 989', image: '/brand/modulyss/products/gleam/variants/gleam-989.webp', swatch: '#3E4143' },
+            { name: 'Gleam 990', image: '/brand/modulyss/products/gleam/variants/gleam-990.webp', swatch: '#1E2022' },
+            { name: 'Gleam 994', image: '/brand/modulyss/products/gleam/variants/gleam-994.webp', swatch: '#111111' }
+        ],
+        roomshots: [
+            '/brand/modulyss/products/gleam/roomshots/room-1.webp',
+            '/brand/modulyss/products/gleam/roomshots/room-2.webp',
+            '/brand/modulyss/products/gleam/roomshots/room-3.webp',
+            '/brand/modulyss/products/gleam/roomshots/room-4.webp',
+            '/brand/modulyss/products/gleam/roomshots/room-5.webp',
+            '/brand/modulyss/products/gleam/roomshots/room-6.webp'
+        ]
+    }
+];
