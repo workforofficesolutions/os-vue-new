@@ -6,7 +6,7 @@ const props = defineProps({
     copy: {
         type: String,
         default:
-            `Office Solutions has been at the forefront of UAE’s entrance matting and flooring industry since 1976. For decades, we have been trusted by architects, designers, installers and builders for our industry-advancing expertise, depth of knowledge, and the reliability of our people and products.`,
+            `Since 2012, Office Solutions has provided premium flooring solutions across the UAE. The company is trusted by architects, developers, and corporate clients for its expertise, quality products, and professional service. Covering residential, commercial, hospitality, healthcare, and industrial spaces, Office Solutions delivers flooring options that combine durability, design, and sustainability.`,
     },
 
     storyHref: { type: String, default: 'https://www.officesolutions.uae/about/our-story' },

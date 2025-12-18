@@ -84,10 +84,8 @@ onMounted(async () => {
       <!-- Right (copy) — md:7 / 12, aligned to image top -->
       <div class="md:col-span-7 self-start">
         <h2 class="earthy-copy leading-tight text-[clamp(24px,4vw,46px)] font-semibold max-w-[760px]">
-          From leading global flooring brands to Advance's own locally designed
-          and manufactured products, our carefully curated range encompasses
-          solutions for every kind of
-          <span class="earthy-muted"> commercial building.</span>
+          From globally renowned partners to specialised flooring systems, Office Solutions offers a comprehensive range designed to support the needs of residential,
+          <span class="earthy-muted"> commercial, and institutional projects.</span>
         </h2>
       </div>
     </div>

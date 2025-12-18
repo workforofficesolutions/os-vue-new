@@ -36,7 +36,7 @@ const slides = [
   },
   {
     video: '/hero/hero4.mp4',
-    headline: 'Build For Better',
+    headline: 'Built For Better',
     title: 'Project Four',
     subtitle: '—',
     link: { text: 'View case study', url: '#' }
