@@ -35,7 +35,7 @@ export default [
       // DSGN Tweed (3 variants)
       {
         title: 'DSGN Tweed - 914',
-        image: '/brand/modulyss/products/dsgntweed/variants/dsgntweed-280.webp',
+        image: '/brand/modulyss/products/dsgntweed/variants/dsgntweed-991.webp',
         price: 130.0,
         dateAdded: '2024-01-18',
         featured: true,

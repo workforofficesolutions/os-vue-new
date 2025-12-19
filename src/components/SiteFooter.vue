@@ -2,7 +2,7 @@
 <script setup>
 // Optional props if you want to swap the logo/brand text later
 const props = defineProps({
-    logoSrc: { type: String, default: '/hero/os-logo.png' },
+    logoSrc: { type: String, default: '/hero/os-logo-trans.png' },
     brandName: { type: String, default: 'OfficeSolutions' },
 })
 
@@ -49,8 +49,13 @@ const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
                 <div class="flex flex-col">
                     <!-- Logo -->
                     <div class="mb-12">
-                        <div class="flex items-center gap-3">
-                            <img v-if="props.logoSrc" :src="props.logoSrc" :alt="props.brandName" class="h-9 w-auto" />
+                        <div class="flex items-center gap-3 -ml-5">
+                            <img
+                                v-if="props.logoSrc"
+                                :src="props.logoSrc"
+                                :alt="props.brandName"
+                                class="h-9 w-auto logo-zoom"
+                            />
                             <span v-else class="text-3xl font-semibold tracking-tight">{{ props.brandName }}</span>
                         </div>
                     </div>
@@ -132,7 +137,7 @@ const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
 
                             <button type="submit"
                                 class="group inline-flex w-full items-center justify-between rounded border border-white/60 px-5 py-3 text-[15px] font-semibold hover:bg-white hover:text-[#8C462C] sm:w-auto">
-                                Sign up
+                                Connect
                                 <span
                                     class="ml-4 inline-flex h-5 w-5 items-center justify-center rounded-full border border-current">
                                     <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor"
@@ -172,6 +177,12 @@ const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
 </template>
 
 <style scoped>
+.logo-zoom {
+    /* Keep the logo visually larger without shifting left past the column edge */
+    transform: translateX(-2px) scale(6.0);
+    transform-origin: left center;
+    transition: filter 200ms ease;
+}
 input::placeholder {
     color: rgba(255, 255, 255, .6);
 }
