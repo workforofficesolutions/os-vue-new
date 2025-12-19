@@ -447,8 +447,12 @@ onBeforeUnmount(killTrigger)
         <!-- Center brand text for now (you'll swap to logo later) -->
         <!-- Mobile logo -->
         <!-- Centered mobile logo that also touches the bottom line -->
-        <a href="/" aria-label="Office Solutions" class="h-full pb-px flex items-stretch">
-          <img src="/hero/os-logo.png" alt="Office Solutions" class="block h-full w-auto" />
+        <a href="/" aria-label="Office Solutions" class="h-full pb-px flex items-stretch overflow-visible">
+          <img
+            src="/hero/os-logo-trans.png"
+            alt="Office Solutions"
+            :class="['block h-full w-auto logo-zoom', headerSolid ? 'logo-invert' : '']"
+          />
         </a>
 
         <button aria-label="Search" class="inline-flex">
@@ -471,8 +475,12 @@ onBeforeUnmount(killTrigger)
         <!-- Desktop centered logo -->
         <!-- CENTERED LOGO (constrained) -->
         <div class="flex items-stretch justify-center h-16">
-          <a href="/" aria-label="Office Solutions" class="h-full pb-px flex items-stretch">
-            <img src="/hero/os-logo.png" alt="Office Solutions" class="block h-full w-auto" />
+          <a href="/" aria-label="Office Solutions" class="h-full pb-px flex items-stretch overflow-visible">
+            <img
+              src="/hero/os-logo-trans.png"
+              alt="Office Solutions"
+              :class="['block h-full w-auto logo-zoom', headerSolid ? 'logo-invert' : '']"
+            />
           </a>
         </div>
         <nav class="flex items-center gap-8 justify-end">
@@ -875,5 +883,16 @@ a:focus-visible .underline-sweep::after {
   font-size: clamp(15px, 3.8vw, 18px);
   line-height: 1.3;
   font-weight: 500;
+}
+/* Zoom the logo without changing layout (transform doesn't affect flow). */
+.logo-zoom {
+  transform: scale(3.50);
+  transform-origin: center 50%;
+  transition: filter 200ms ease;
+}
+
+/* When header becomes solid (white bg + black text), invert the white logo to black */
+.logo-invert {
+  filter: invert(1);
 }
 </style>

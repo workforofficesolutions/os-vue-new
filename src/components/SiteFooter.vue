@@ -22,8 +22,7 @@ const navColumns = [
     },
     {
         links: [
-            { label: 'MasterSpec', href: '#' },
-            { label: 'EBOSS', href: '#' },
+            { label: 'Designer\'s Choice', href: 'designers-choice' },
         ],
     },
     {
@@ -108,9 +107,7 @@ const mapUrl = `https://www.google.com/maps/search/?api=1&query=${mapQuery}`
                 <div class="lg:border-l lg:border-white/25 lg:pl-12">
                     <div class="max-w-2xl">
                         <h3 class="text-[20px] font-semibold leading-snug sm:text-[22px]">
-                            Stay up to date with the latest advances in
-                            flooring design and materials. Sign up to
-                            our 6-weekly newsletter below:
+                            Explore the latest in flooring design and materials. Connect with our team today.
                         </h3>
 
                         <form class="mt-8 space-y-6" @submit.prevent>

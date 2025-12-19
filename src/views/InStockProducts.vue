@@ -54,7 +54,7 @@
                         </div>
                     </div>
 
-                    <!-- Price dropdown -->
+                    <!-- Price dropdown
                     <div class="relative" ref="priceRef">
                         <button type="button"
                             class="flex items-center gap-1 px-3 py-1 border border-neutral-300 bg-[#f5f0e6] text-sm"
@@ -83,7 +83,7 @@
                                 Reset
                             </button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- Desktop: Sort on right -->
@@ -95,8 +95,8 @@
                         <option value="bestSelling">Best Selling</option>
                         <option value="a-z">Alphabetically A–Z</option>
                         <option value="z-a">Alphabetically Z–A</option>
-                        <option value="priceLowHigh">Price: Low to High</option>
-                        <option value="priceHighLow">Price: High to Low</option>
+                        <!-- <option value="priceLowHigh">Price: Low to High</option>
+                        <option value="priceHighLow">Price: High to Low</option> -->
                         <option value="dateOldNew">Date: Old to New</option>
                         <option value="dateNewOld">Date: New to Old</option>
                     </select>
@@ -144,7 +144,7 @@
                             </div>
 
                             <!-- Price range -->
-                            <div>
+                            <!-- <div>
                                 <p class="font-medium mb-2">Price Range (AED)</p>
                                 <div class="flex items-center gap-2">
                                     <input
@@ -163,7 +163,7 @@
                                         class="w-24 px-2 py-1 border border-neutral-300 text-xs"
                                     />
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- Sort by -->
                             <div>
@@ -176,8 +176,8 @@
                                     <option value="bestSelling">Best Selling</option>
                                     <option value="a-z">Alphabetically A–Z</option>
                                     <option value="z-a">Alphabetically Z–A</option>
-                                    <option value="priceLowHigh">Price: Low to High</option>
-                                    <option value="priceHighLow">Price: High to Low</option>
+                                    <!-- <option value="priceLowHigh">Price: Low to High</option>
+                                    <option value="priceHighLow">Price: High to Low</option> -->
                                     <option value="dateOldNew">Date: Old to New</option>
                                     <option value="dateNewOld">Date: New to Old</option>
                                 </select>
@@ -223,9 +223,9 @@
                         class="text-xs md:text-sm underline text-neutral-800 text-center inline-block">
                         Download image
                     </a>
-                    <p class="mt-1 text-sm md:text-base text-neutral-900 text-center">
+                    <!-- <p class="mt-1 text-sm md:text-base text-neutral-900 text-center">
                         AED {{ variant.price.toFixed(2) }}
-                    </p>
+                    </p> -->
                 </div>
             </div>
 
@@ -266,24 +266,24 @@ import inStockData from '../data/inStockProducts.js';
 const route = useRoute();
 const brandParam = ref(route.params.brand || '');
 const showInStock = ref(true);
-const priceMin = ref(null);
-const priceMax = ref(null);
+// const priceMin = ref(null);
+// const priceMax = ref(null);
 const sortBy = ref('featured');
 const itemsToShow = ref(20);
 
 // UI state for desktop dropdowns and mobile drawer
 const isAvailabilityOpen = ref(false);
-const isPriceOpen = ref(false);
+// const isPriceOpen = ref(false);
 const isMobileFilterOpen = ref(false);
 
 // Refs for click-outside handling on desktop dropdowns
 const availabilityRef = ref(null);
-const priceRef = ref(null);
+// const priceRef = ref(null);
 
 // Temporary state for mobile drawer (so changes apply only on 'Apply')
 const tempShowInStock = ref(showInStock.value);
-const tempPriceMin = ref(priceMin.value);
-const tempPriceMax = ref(priceMax.value);
+// const tempPriceMin = ref(priceMin.value);
+// const tempPriceMax = ref(priceMax.value);
 const tempSortBy = ref(sortBy.value);
 
 // Find the current brand data based on route
@@ -307,16 +307,16 @@ watch(
 
 const variantsCount = computed(() => variants.value.length);
 
-const maxPrice = computed(() => {
-    if (!variants.value.length) return null;
-    return Math.max(...variants.value.map(v => v.price));
-});
+// const maxPrice = computed(() => {
+//     if (!variants.value.length) return null;
+//     return Math.max(...variants.value.map(v => v.price));
+// });
 
 watch(isMobileFilterOpen, (open) => {
     if (open) {
         tempShowInStock.value = showInStock.value;
-        tempPriceMin.value = priceMin.value;
-        tempPriceMax.value = priceMax.value;
+        // tempPriceMin.value = priceMin.value;
+        // tempPriceMax.value = priceMax.value;
         tempSortBy.value = sortBy.value;
     }
 });
@@ -330,31 +330,31 @@ const currentBrandName = computed(() => {
 // Desktop dropdown helpers
 function toggleAvailability() {
     isAvailabilityOpen.value = !isAvailabilityOpen.value;
-    if (isAvailabilityOpen.value) {
-        isPriceOpen.value = false;
-    }
+    // if (isAvailabilityOpen.value) {
+    //     isPriceOpen.value = false;
+    // }
 }
 
-function togglePrice() {
-    isPriceOpen.value = !isPriceOpen.value;
-    if (isPriceOpen.value) {
-        isAvailabilityOpen.value = false;
-    }
-}
+// function togglePrice() {
+//     isPriceOpen.value = !isPriceOpen.value;
+//     if (isPriceOpen.value) {
+//         isAvailabilityOpen.value = false;
+//     }
+// }
 
-function resetPriceFilter() {
-    priceMin.value = null;
-    priceMax.value = null;
-}
+// function resetPriceFilter() {
+//     priceMin.value = null;
+//     priceMax.value = null;
+// }
 
 function clearAllFilters() {
     showInStock.value = true;
-    priceMin.value = null;
-    priceMax.value = null;
+    // priceMin.value = null;
+    // priceMax.value = null;
     sortBy.value = 'featured';
     itemsToShow.value = 20;
     isAvailabilityOpen.value = false;
-    isPriceOpen.value = false;
+    // isPriceOpen.value = false;
 }
 
 // Close dropdowns when clicking outside their containers (desktop only)
@@ -363,9 +363,9 @@ function onDocumentClick(event) {
     if (availabilityRef.value && !availabilityRef.value.contains(target)) {
         isAvailabilityOpen.value = false;
     }
-    if (priceRef.value && !priceRef.value.contains(target)) {
-        isPriceOpen.value = false;
-    }
+    // if (priceRef.value && !priceRef.value.contains(target)) {
+    //     isPriceOpen.value = false;
+    // }
 }
 
 onMounted(() => {
@@ -387,8 +387,8 @@ function closeMobileFilter() {
 
 function applyMobileFilters() {
     showInStock.value = tempShowInStock.value;
-    priceMin.value = tempPriceMin.value;
-    priceMax.value = tempPriceMax.value;
+    // priceMin.value = tempPriceMin.value;
+    // priceMax.value = tempPriceMax.value;
     sortBy.value = tempSortBy.value;
     isMobileFilterOpen.value = false;
 }
@@ -409,12 +409,12 @@ const filteredVariants = computed(() => {
     }
 
     // Price range filter
-    if (priceMin.value != null) {
-        list = list.filter(v => v.price >= priceMin.value);
-    }
-    if (priceMax.value != null) {
-        list = list.filter(v => v.price <= priceMax.value);
-    }
+    // if (priceMin.value != null) {
+    //     list = list.filter(v => v.price >= priceMin.value);
+    // }
+    // if (priceMax.value != null) {
+    //     list = list.filter(v => v.price <= priceMax.value);
+    // }
 
     // Sorting
     switch (sortBy.value) {
@@ -430,12 +430,12 @@ const filteredVariants = computed(() => {
         case 'z-a':
             list.sort((a, b) => b.title.localeCompare(a.title));
             break;
-        case 'priceLowHigh':
-            list.sort((a, b) => a.price - b.price);
-            break;
-        case 'priceHighLow':
-            list.sort((a, b) => b.price - a.price);
-            break;
+        // case 'priceLowHigh':
+        //     list.sort((a, b) => a.price - b.price);
+        //     break;
+        // case 'priceHighLow':
+        //     list.sort((a, b) => b.price - a.price);
+        //     break;
         case 'dateOldNew':
             list.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded));
             break;
