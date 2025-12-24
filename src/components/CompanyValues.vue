@@ -104,34 +104,40 @@ const autoplay = {
 
 const values = [
     {
-        title: 'Family values for enduring partnerships',
+        title: 'Flooring expertise you can trust',
         blurb:
-            "Advance is a multi-generational family business. Flooring is in our DNA. That’s why we treat our people, partners, collaborators, and clients like they’re part of the family.",
-        image: '/about/values/1.avif'
+            "Office Solutions has guided architects, developers, and corporate clients across the UAE since 2012, offering reliable advice, precise installation, and high-quality flooring products.",
+        image: '/about/values/1.jpg'
     },
     {
-        title: 'Curated—from front door to back of house',
+        title: 'Solutions for every space',
         blurb:
-            'From global brands to our own locally designed ranges, we carefully curate solutions for every kind of commercial building.',
-        image: '/about/values/2.avif'
+            'From commercial to engineering, education to healthcare, our range covers all flooring requirements for every sector, combining durability, practical design, and functionality.',
+        image: '/about/values/2.jpg'
     },
     {
-        title: 'We make flooring easy',
+        title: 'Global brands with compatible insights',
         blurb:
-            "Responding quickly, solving problems, building genuine relationships, and making good on our promises. Easy, elevated service—it's how we move flooring forward.",
-        image: '/about/values/3.avif'
+            "We partner with internationally recognised brands such as Modulyss, Amtico, Unitile, and to deliver products that meet global standards while serving UAE projects effectively.",
+        image: '/about/values/3.jpg'
     },
     {
-        title: 'From our factory floor to yours',
+        title: 'Support from planning to completion',
         blurb:
-            'We create entry flooring solutions of a global standard while keeping it local. The only company designing, engineering and manufacturing under one roof.',
-        image: '/about/values/4.avif'
+            'Our team provides project consultation, professional installation, and ongoing support to make flooring selection and delivery simple and reliable.',
+        image: '/about/values/4.jpg'
     },
     {
-        title: 'Industry-advancing flooring experts',
+        title: 'Flooring designed for sustainability',
         blurb:
-            'For decades we’ve been trusted by architects, designers and builders for our depth of knowledge and technical reliability.',
-        image: '/about/values/5.avif'
+            'We select products that are durable and environmentally responsible, including recyclable carpet tiles, vinyl, and other resilient solutions that promote greener building practices.',
+        image: '/about/values/5.jpg'
+    },
+    {
+        title: 'Performance and adaptability',
+        blurb:
+            'Our flooring solutions suit offices, schools, healthcare, and industrial spaces, offering comfort, acoustic control, and strength to endure daily use.',
+        image: '/about/values/6.jpg'
     }
 ]
 

@@ -77,7 +77,7 @@ const props = defineProps({
     },
     host: {
         type: String,
-        default: 'https://www.officesolutions.uae',
+        default: '/',
     },
 })
 

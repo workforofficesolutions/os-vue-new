@@ -20,7 +20,7 @@ const sectors = [
   { label: 'Education', img: '/home/Block04-02.webp' },
   { label: 'Healthcare', img: '/home/Block04-03.webp', pos: '40% 50%' },
   { label: 'Public buildings', img: '/home/Block04-04.webp' },
-  { label: 'Aged care', img: '/home/Block04-05.webp.jpg' },
+  { label: 'Aged care', img: '/home/Block04-05.webp' },
   { label: 'Shopping & showrooms', img: '/block4/block4-shopping.jpg' },
   { label: 'Sport', img: '/block4/block4-sport.jpg' },
 ]

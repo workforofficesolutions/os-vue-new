@@ -9,8 +9,8 @@ const props = defineProps({
             `Since 2012, Office Solutions has provided premium flooring solutions across the UAE. The company is trusted by architects, developers, and corporate clients for its expertise, quality products, and professional service. Covering residential, commercial, hospitality, healthcare, and industrial spaces, Office Solutions delivers flooring options that combine durability, design, and sustainability.`,
     },
 
-    storyHref: { type: String, default: 'https://www.officesolutions.uae/about/our-story' },
-    teamHref: { type: String, default: 'https://www.officesolutions.uae/about/our-team' },
+    storyHref: { type: String, default: '/about/our-story' },
+    teamHref: { type: String, default: '/about/our-team' },
 
     // desktop min-heights (image drives overall block height)
     minHmd: { type: Number, default: 720 },

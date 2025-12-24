@@ -9,6 +9,8 @@ const ProductDetail = () => import('../views/ProductDetail.vue')
 const InStockProducts = () => import('../views/InStockProducts.vue')
 const DesignerChoice = () => import('../views/DesignerChoice.vue')
 const SectorDetail = () => import('../views/SectorDetail.vue')
+const OurTeam = () => import('../views/OurTeam.vue')
+const OurStoryPage = () => import('../views/OurStoryPage.vue')
 const NotFound = () => import('../views/NotFound.vue')
 
 export default createRouter({
@@ -41,6 +43,18 @@ export default createRouter({
             name: 'sector-detail',
             component: SectorDetail,
             props: true,
+        },
+        {
+            path: '/about/our-team',
+            name: 'our-team',
+            component: OurTeam,
+            meta: { transparentHeader: true },
+        },
+        {
+            path: '/about/our-story',
+            name: 'our-story',
+            component: OurStoryPage,
+            meta: { transparentHeader: true },
         },
         { path: '/:pathMatch(.*)*', name: '404', component: NotFound },
     ],
